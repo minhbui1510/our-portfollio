@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function ThemeToggle() {
+export default function DarkLightToggle() {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
