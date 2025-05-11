@@ -1,24 +1,30 @@
 import { motion } from "framer-motion";
 import { FaReact, FaNodeJs, FaVuejs, FaFigma, FaGithub, FaLinkedin } from "react-icons/fa";
 import {JSX} from "react";
+import {useNavigate} from "react-router-dom";
 
 export default function PortfolioList() {
+    const navigate = useNavigate();
     const people = [
         {
             name: "Bùi Hải Minh",
             avatar: "https://i.pravatar.cc/150?img=1",
             skills: ["React", "Node.js", "Figma"],
             github: "https://github.com/nguyenvana",
-            linkedin: "https://linkedin.com/in/nguyenvana"
+            linkedin: "https://linkedin.com/in/nguyenvana",
+            id: '@haiminh'
         },
         {
             name: "Nguyễn Ngọc Duy",
             avatar: "https://i.pravatar.cc/150?img=2",
             skills: ["Vue", "Figma"],
             github: "https://github.com/tranthib",
-            linkedin: "https://linkedin.com/in/tranthib"
+            linkedin: "https://linkedin.com/in/tranthib",
+            id: '@ngocduy'
         }
     ];
+    // router detail by id
+
 
     // mapping skill name to icon
     const skillIcons: Record<string, JSX.Element> = {
@@ -55,7 +61,9 @@ export default function PortfolioList() {
                             alt={person.name}
                             className="w-10 h-10 rounded-full"
                         />
-                        <h2 className="text-lg font-semibold text-[rgb(var(--text))]">
+                        <h2 className="text-lg font-semibold text-[rgb(var(--text))] hover:text-[rgb(var(--primary))] cursor-pointer"
+                        onClick={() => navigate(`/${person.id}`)} // Navigate to detail page
+                        >
                             {person.name}
                         </h2>
                     </div>
