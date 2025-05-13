@@ -3,6 +3,7 @@ import {Timeline} from "../components/TimelineItem.tsx";
 import {FaBriefcase, FaGraduationCap} from "react-icons/fa";
 import type {JobDescription} from "../model/TimeLineItem.ts";
 import JobItemDescription from "../components/JobItemDescription.tsx";
+import ProfileCard from "../components/ProfileCard.tsx";
 
 const mbRebootDescription: JobDescription = {
     teamSize: 10,
@@ -21,12 +22,13 @@ const mbRebootDescription: JobDescription = {
             </div>
         </div>
     ),
+    imageUrl: 'public/project/MB_biz.png', // URL của hình ảnh mô tả công việc
 };
 const timelineData = [
     {
         title: 'Học đại học',
         subtitle: 'Trường CNTT Hà Nội',
-        description: <JobItemDescription item={mbRebootDescription}/>,
+        description: 'Chuyên ngành CNTT',
         date: '2015 - 2019',
         type: 'education',
         icon: <FaGraduationCap/>,
@@ -35,7 +37,7 @@ const timelineData = [
     {
         title: 'Làm việc tại ABC',
         subtitle: 'Front-end Developer',
-        description: 'React, Tailwind, TS',
+        description:<JobItemDescription item={mbRebootDescription}/>,
         date: '2020 - Hiện tại',
         type: 'work',
         icon: <FaBriefcase/>,
@@ -147,17 +149,24 @@ export default function PortfolioDetail() {
         //   <section>
         //     <h2 className="text-xl font-bold mb-2">🧑‍💼 Người tham chiếu</h2>
         //     <ul className="list-disc pl-6">
-        //       <li><strong>Ông Trần Văn B</strong> – Trưởng phòng Kỹ thuật – Công ty ABC – 0908 456 789 – tranvanb@abc.com</li>
+        //       <li><strong>Ông Trần V ăn B</strong> – Trưởng phòng Kỹ thuật – Công ty ABC – 0908 456 789 – tranvanb@abc.com</li>
         //       <li><strong>Cô Nguyễn Thị C</strong> – Giảng viên hướng dẫn – Đại học Bách Khoa – 0909 999 999 – nguyenthic@hcmut.edu.vn</li>
         //     </ul>
         //   </section>
         // </div>
+        <>
         <section className="w-full px-4 sm:px-6 lg:px-8 py-12 bg-[rgb(var(--bg))]">
-            <h2 className="text-3xl font-bold text-center mb-10 text-[rgb(var(--text))]">
+             <ProfileCard/>
+            <div className="">
+                <h2 className="text-3xl font-bold text-center mb-10 text-[rgb(var(--text))]">
                     Timeline nghề nghiệp
                 </h2>
                 <Timeline items={timelineData}/>
+
+            </div>
         </section>
+
+        </>
 
     );
 }
