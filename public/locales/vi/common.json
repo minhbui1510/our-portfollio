@@ -1,5 +1,13 @@
 {
   "welcome": "Chào mừng",
   "description": "Đây là ứng dụng đa ngôn ngữ",
-  "MyPortfolio": "Portfolio của tôi"
+  "MyPortfolio": "Portfolio của tôi",
+  "people": "người",
+   "job": {
+    "description": "Mô tả",
+    "team": "Đội ngũ",
+    "tools": "Công cụ",
+    "tech": "Công nghệ",
+    "detail": "Chi tiết"
+  }
 }

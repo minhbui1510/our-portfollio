@@ -1,5 +1,13 @@
 {
   "welcome": "Welcome",
   "description": "This is a multilingual app",
-  "MyPortfolio": "My Portfolio"
+  "MyPortfolio": "My Portfolio",
+  "people": "people",
+  "job": {
+    "description": "Description",
+    "team": "Team Size",
+    "tools": "Tools",
+    "tech": "Technologies",
+    "detail": "Details"
+  }
 }
