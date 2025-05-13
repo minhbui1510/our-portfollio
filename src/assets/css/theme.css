@@ -33,3 +33,6 @@
   --border: 254 215 170;
   --accent: 251 146 60;
 }
+.vertical-timeline::before {
+  background: rgb(var(--primary)) !important; /* dùng biến theme */
+}

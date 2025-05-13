@@ -9,5 +9,13 @@
     "tools": "Tools",
     "tech": "Technologies",
     "detail": "Details"
+  },
+    "profile": {
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "website": "Website"
   }
 }

@@ -9,5 +9,14 @@
     "tools": "Công cụ",
     "tech": "Công nghệ",
     "detail": "Chi tiết"
-  }
+  },
+"profile": {
+  "birthday": "Ngày sinh",
+  "gender": "Giới tính",
+  "phone": "Điện thoại",
+  "email": "Email",
+  "address": "Địa chỉ",
+  "website": "Website"
+}
+
 }
