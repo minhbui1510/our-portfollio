@@ -5,15 +5,16 @@ import SectionBlock from "../components/SectionBlock.tsx";
 import { useTranslation } from "react-i18next";
 import SkillBlock from "../components/SkillsBlock.tsx";
 import { getMappedProfile } from "../service/profileMappedService.tsx";
+import {useParams} from "react-router-dom";
 
 export default function PortfolioDetail() {
   const { t, i18n } = useTranslation();
   const [data, setData] = useState<any>(null);
-
+  const {id} = useParams();
   const fetchData = async (lang: string) => {
     const normalizedLang = lang.startsWith("vi") ? "vi" : "en";
     try {
-      const res = await getMappedProfile(normalizedLang);
+      const res = await getMappedProfile(id, normalizedLang);
       setData(res);
     } catch (e) {
       console.error("Failed to load profile:", e);

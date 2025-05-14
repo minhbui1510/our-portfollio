@@ -3,8 +3,8 @@ import React from 'react';
 import JobItemDescription, {buildExpJSX} from "../components/JobItemDescription.tsx";
 import {getIcon} from "../util/iconUtils.tsx";
 
-export const getMappedProfile = async (lang = 'vi') => {
-  const data = await getProfileData('@minh1510',lang);
+export const getMappedProfile = async (profile, lang = 'vi') => {
+  const data = await getProfileData(profile,lang);
   const timelineData = data.timeline.map((item: any) => {
     const isWork = item.type === 'work' && typeof item.description === 'object';
     return {
