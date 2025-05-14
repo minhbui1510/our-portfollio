@@ -1,59 +1,55 @@
-import React, {ReactNode} from "react";
-import {Timeline} from "../components/TimelineItem.tsx";
-import {FaBriefcase, FaGraduationCap} from "react-icons/fa";
-import type {JobDescription} from "../model/TimeLineItem.ts";
-import JobItemDescription from "../components/JobItemDescription.tsx";
+import React, { useEffect, useState } from "react";
+import { Timeline } from "../components/TimelineItem.tsx";
 import ProfileCard from "../components/ProfileCard.tsx";
-
-const mbRebootDescription: JobDescription = {
-    teamSize: 10,
-    tools: ['VSCode', 'Git', 'Jira'],
-    technologies: ['Angular 16', 'Micro Frontend', 'Spring Boot', 'Oracle'],
-    shortDescription: 'Phát triển hệ thống giao dịch doanh nghiệp MB.',
-    exp: (
-        <div className="flex flex-col gap-2 text-sm text-[rgb(var(--text))] leading-relaxed mt-2">
-            <div>
-                <span className="font-medium">Phối hợp xử lý:</span> luồng chuyển tiền ngoại tệ giữa các phân hệ ngân
-                hàng.
-            </div>
-            <div>
-                <span className="font-medium">Tối ưu giao diện:</span> cải thiện trải nghiệm bằng component reuse và
-                lazy loading.
-            </div>
-        </div>
-    ),
-    imageUrl: 'public/project/MB_biz.png', // URL của hình ảnh mô tả công việc
-};
-const timelineData = [
-    {
-        title: 'Học đại học',
-        subtitle: 'Trường CNTT Hà Nội',
-        description: 'Chuyên ngành CNTT',
-        date: '2015 - 2019',
-        type: 'education',
-        icon: <FaGraduationCap/>,
-        bgColor: '#0ea5e9',
-    },
-    {
-        title: 'Làm việc tại ABC',
-        subtitle: 'Front-end Developer',
-        description: <JobItemDescription item={mbRebootDescription}/>,
-        date: '2020 - Hiện tại',
-        type: 'work',
-        icon: <FaBriefcase/>,
-        bgColor: '#f97316',
-    },
-];
+import SectionBlock from "../components/SectionBlock.tsx";
+import { useTranslation } from "react-i18next";
+import SkillBlock from "../components/SkillsBlock.tsx";
+import { getMappedProfile } from "../service/profileMappedService.tsx";
 
 export default function PortfolioDetail() {
-    return (
-        <>
-            <section className="w-full px-4 sm:px-6 lg:px-8 py-12 bg-[rgb(var(--bg))]">
-                <ProfileCard/>
-                <Timeline items={timelineData}/>
-            </section>
+  const { t, i18n } = useTranslation();
+  const [data, setData] = useState<any>(null);
 
-        </>
+  const fetchData = async (lang: string) => {
+    const normalizedLang = lang.startsWith("vi") ? "vi" : "en";
+    try {
+      const res = await getMappedProfile(normalizedLang);
+      setData(res);
+    } catch (e) {
+      console.error("Failed to load profile:", e);
+    }
+  };
 
-    );
+  // 🔁 Gọi lần đầu khi component mount
+  useEffect(() => {
+    fetchData(i18n.language);
+  }, []);
+
+  // 🔁 Lắng nghe sự kiện đổi ngôn ngữ (languageChanged)
+  useEffect(() => {
+    const handleLangChange = (lng: string) => {
+      fetchData(lng);
+    };
+
+    i18n.on("languageChanged", handleLangChange);
+    return () => {
+      i18n.off("languageChanged", handleLangChange);
+    };
+  }, [i18n]);
+
+  if (!data) return <p>Loading...</p>;
+
+  return (
+    <section className="w-full px-4 sm:px-6 lg:px-8 py-12 bg-[rgb(var(--bg))]">
+      <ProfileCard data={data.profile} />
+      <Timeline items={data.timelineData} />
+      <SectionBlock title={t("profile.certificates")} items={data.certificates} />
+      <SectionBlock title={t("profile.awards")} items={data.awards} />
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {data.skillGroups.map((group: any, index: number) => (
+          <SkillBlock key={index} title={t(group.titleKey)} skills={group.skills} />
+        ))}
+      </div>
+    </section>
+  );
 }

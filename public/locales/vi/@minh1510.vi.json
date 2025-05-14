@@ -1,0 +1,80 @@
+{
+  "profile": {
+    "name": "Bùi Hải Minh",
+    "title": "Chuyên viên IT",
+    "avatarUrl": "/images/avatar.jpg",
+    "birthday": "15/10/2000",
+    "gender": "Nam",
+    "phone": "0945837510",
+    "email": "buihai...@gmail.com",
+    "address": "Tổ 9 Khu 3 Ngã 3 Hải Quân",
+    "website": "http://fb.com/haiminh1510"
+  },
+  "timeline": [
+    {
+      "title": "Học đại học",
+      "subtitle": "Trường CNTT Hà Nội",
+      "description": "Chuyên ngành CNTT",
+      "date": "2015 - 2019",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Làm việc tại ABC",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": ["VSCode", "Git", "Jira"],
+        "technologies": ["Angular 16", "Micro Frontend", "Spring Boot", "Oracle"],
+        "shortDescription": "Phát triển hệ thống giao dịch doanh nghiệp MB.",
+        "exp": [
+          {
+            "title": "Phối hợp xử lý",
+            "content": "luồng chuyển tiền ngoại tệ giữa các phân hệ ngân hàng."
+          },
+          {
+            "title": "Tối ưu giao diện",
+            "content": "cải thiện trải nghiệm bằng component reuse và lazy loading."
+          }
+        ],
+        "imageUrl": "public/project/MB_biz.png"
+      },
+      "date": "2020 - Hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    }
+  ],
+  "awards": [
+    {
+      "date": "12-2022",
+      "content": "CÁN BỘ NHÂN VIÊN TRIỂN VỌNG"
+    }
+  ],
+  "certificates": [
+    {
+      "date": "09/2018 - 12/2019",
+      "content": "ENGLISH TOPNOTCH 2.2 tại Trường Cao đẳng thực hành FPT Polytechnic (Tương đương IELTS 4.5)\nChứng chỉ Java, JavaScript CodeLearn"
+    }
+  ],
+  "skills": [
+    {
+      "titleKey": "profile.technicalSkills",
+      "skills": [
+        { "name": "Angular", "level": 8, "icon": "SiAngular" },
+        { "name": "JavaScript", "level": 9, "icon": "SiJavascript" },
+        { "name": "HTML5-CSS-Bootstrap", "level": 7, "icon": "SiBootstrap" },
+        { "name": "Git", "level": 8, "icon": "SiGit" }
+      ]
+    },
+    {
+      "titleKey": "profile.softSkills",
+      "skills": [
+        { "name": "Teamwork", "level": 8, "icon": "SiTeamcity" },
+        { "name": "Communication", "level": 7 },
+        { "name": "Problem Solving", "level": 8 }
+      ]
+    }
+  ]
+}

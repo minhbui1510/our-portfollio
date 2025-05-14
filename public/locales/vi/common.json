@@ -3,20 +3,23 @@
   "description": "Đây là ứng dụng đa ngôn ngữ",
   "MyPortfolio": "Portfolio của tôi",
   "people": "người",
-   "job": {
+  "job": {
     "description": "Mô tả",
     "team": "Đội ngũ",
     "tools": "Công cụ",
     "tech": "Công nghệ",
     "detail": "Chi tiết"
   },
-"profile": {
-  "birthday": "Ngày sinh",
-  "gender": "Giới tính",
-  "phone": "Điện thoại",
-  "email": "Email",
-  "address": "Địa chỉ",
-  "website": "Website"
-}
-
+  "profile": {
+    "birthday": "Ngày sinh",
+    "gender": "Giới tính",
+    "phone": "Điện thoại",
+    "email": "Email",
+    "address": "Địa chỉ",
+    "website": "Website",
+    "technicalSkills": "Technical skills",
+    "softSkills": "Soft skills",
+    "certificates": "Chứng chỉ",
+    "awards": "Giải thưởng"
+  }
 }

@@ -76,3 +76,13 @@ export default function JobItemDescription({item}: Props) {
         </div>
     );
 }
+
+export const buildExpJSX = (exp: { title: string; content: string }[]) => (
+  <div className="flex flex-col gap-2 text-sm text-[rgb(var(--text))] leading-relaxed mt-2">
+    {exp.map((item, idx) => (
+      <div key={idx}>
+        <span className="font-medium">{item.title}:</span> {item.content}
+      </div>
+    ))}
+  </div>
+);

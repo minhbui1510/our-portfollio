@@ -19,3 +19,13 @@ export interface JobDescription {
     exp?: ReactNode; // JSX mô tả chi tiết (nếu cần)
     imageUrl?: string; // URL của hình ảnh mô tả công việc
 }
+
+interface TimelineItem {
+  date: string;
+  content: string;
+}
+
+export interface SectionBlockProps {
+  title: string;
+  items: TimelineItem[];
+}

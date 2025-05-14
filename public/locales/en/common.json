@@ -10,12 +10,16 @@
     "tech": "Technologies",
     "detail": "Details"
   },
-    "profile": {
+  "profile": {
     "birthday": "Birthday",
     "gender": "Gender",
     "phone": "Phone",
     "email": "Email",
     "address": "Address",
-    "website": "Website"
+    "website": "Website",
+    "technicalSkills": "Technical skills",
+    "softSkills": "Soft skills",
+    "certificates": "Certificates",
+    "awards": "Awards"
   }
 }

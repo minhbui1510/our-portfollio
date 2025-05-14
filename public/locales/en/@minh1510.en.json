@@ -1,0 +1,80 @@
+{
+  "profile": {
+    "name": "Bùi Hải Minh",
+    "title": "IT Specialist",
+    "avatarUrl": "/images/avatar.jpg",
+    "birthday": "10/15/2000",
+    "gender": "Male",
+    "phone": "0945837510",
+    "email": "buihai...@gmail.com",
+    "address": "Group 9, Area 3, Navy Junction",
+    "website": "http://fb.com/haiminh1510"
+  },
+  "timeline": [
+    {
+      "title": "University",
+      "subtitle": "Hanoi University of Information Technology",
+      "description": "Major in Information Technology",
+      "date": "2015 - 2019",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Working at ABC",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": ["VSCode", "Git", "Jira"],
+        "technologies": ["Angular 16", "Micro Frontend", "Spring Boot", "Oracle"],
+        "shortDescription": "Developing MB corporate transaction system.",
+        "exp": [
+          {
+            "title": "Collaborative processing",
+            "content": "foreign currency transfer flows between banking subsystems."
+          },
+          {
+            "title": "Interface optimization",
+            "content": "enhancing UX via component reuse and lazy loading."
+          }
+        ],
+        "imageUrl": "public/project/MB_biz.png"
+      },
+      "date": "2020 - Present",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    }
+  ],
+  "awards": [
+    {
+      "date": "12-2022",
+      "content": "PROMISING EMPLOYEE OF THE YEAR"
+    }
+  ],
+  "certificates": [
+    {
+      "date": "09/2018 - 12/2019",
+      "content": "ENGLISH TOPNOTCH 2.2 at FPT Polytechnic College (Equivalent to IELTS 4.5)\nJava and JavaScript certificates from CodeLearn"
+    }
+  ],
+  "skills": [
+    {
+      "titleKey": "profile.technicalSkills",
+      "skills": [
+        { "name": "Angular", "level": 8, "icon": "SiAngular" },
+        { "name": "JavaScript", "level": 9, "icon": "SiJavascript" },
+        { "name": "HTML5-CSS-Bootstrap", "level": 7, "icon": "SiBootstrap" },
+        { "name": "Git", "level": 8, "icon": "SiGit" }
+      ]
+    },
+    {
+      "titleKey": "profile.softSkills",
+      "skills": [
+        { "name": "Teamwork", "level": 8, "icon": "SiTeamcity" },
+        { "name": "Communication", "level": 7 },
+        { "name": "Problem Solving", "level": 8 }
+      ]
+    }
+  ]
+}
