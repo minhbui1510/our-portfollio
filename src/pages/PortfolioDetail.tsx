@@ -7,6 +7,7 @@ import SkillBlock from "../components/SkillsBlock.tsx";
 import { getMappedProfile } from "../service/profileMappedService.tsx";
 import {useParams} from "react-router-dom";
 import {useTheme} from "../context/ThemeContext.tsx";
+import {GoalsSection} from "../components/GoalsSection.tsx";
 
 export default function PortfolioDetail() {
   const { t, i18n } = useTranslation();
@@ -18,6 +19,7 @@ export default function PortfolioDetail() {
     try {
       const res = await getMappedProfile(id, normalizedLang);
       setData(res);
+      console.log(res);
       setTheme(res.theme);
     } catch (e) {
       console.error("Failed to load profile:", e);
@@ -47,9 +49,13 @@ export default function PortfolioDetail() {
     <section className="w-full px-4 sm:px-6 lg:px-8 py-12 bg-[rgb(var(--bg))]">
       <ProfileCard data={data.profile} />
       <Timeline items={data.timelineData} />
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
+      <GoalsSection goals={data.term}/>
       <SectionBlock title={t("profile.certificates")} items={data.certificates} />
       <SectionBlock title={t("profile.awards")} items={data.awards} />
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
         {data.skillGroups.map((group: any, index: number) => (
           <SkillBlock key={index} title={t(group.titleKey)} skills={group.skills} />
         ))}

@@ -17,9 +17,12 @@
     "email": "Email",
     "address": "Địa chỉ",
     "website": "Website",
-    "technicalSkills": "Technical skills",
-    "softSkills": "Soft skills",
+    "technicalSkills": "Kỹ năng chuyên môn",
+    "softSkills": "Kỹ năng mềm",
     "certificates": "Chứng chỉ",
-    "awards": "Giải thưởng"
+    "awards": "Giải thưởng",
+    "goals": "Mục tiêu nghề nghiệp",
+    "shortTerm": "Mục tiêu ngắn hạn",
+    "longTerm": "Mục tiêu dài hạn"
   }
 }

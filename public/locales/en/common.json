@@ -20,6 +20,9 @@
     "technicalSkills": "Technical skills",
     "softSkills": "Soft skills",
     "certificates": "Certificates",
-    "awards": "Awards"
+    "awards": "Awards",
+    "goals": "Goals",
+    "shortTerm": "Short-term Goal",
+    "longTerm": "Long-term Goal"
   }
 }

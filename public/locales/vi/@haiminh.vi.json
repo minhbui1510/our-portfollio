@@ -11,6 +11,11 @@
     "address": "Tổ 9, Khu 3, Ngã ba Hải Quân",
     "website": "http://fb.com/haiminh1510"
   },
+  "term": {
+      "goals": "Mục tiêu nghề nghiệp",
+    "shortTerm": "Tiếp tục rèn luyện chuyên sâu về Angular và TypeScript, kết hợp học thêm React để mở rộng khả năng tiếp cận dự án đa nền tảng. Nâng cao kỹ năng tối ưu hiệu suất giao diện và kỹ thuật responsive.",
+    "longTerm": "Trở thành Front-end Tech Lead trong 3 năm tới, có khả năng định hướng kiến trúc giao diện, mentor cho junior developer, và cùng team xây dựng những sản phẩm UI thân thiện, hiệu quả và có khả năng mở rộng cao."
+  },
   "timeline": [
     {
       "title": "Học cao đẳng",
@@ -216,19 +221,43 @@
   ],
   "skills": [
     {
-      "titleKey": "profile.Technical Skills",
-      "skills": [
-        { "name": "Angular", "level": 8, "icon": "SiAngular" },
-        { "name": "JavaScript", "level": 9, "icon": "SiJavascript" },
-        { "name": "HTML5-CSS-Bootstrap", "level": 7, "icon": "SiBootstrap" },
-        { "name": "Git", "level": 8, "icon": "SiGit" }
+      "titleKey": "profile.technicalSkills",
+       "skills": [
+        {
+          "name": "Angular",
+          "level": 8
+        },
+        {
+          "name": "JavaScript",
+          "level": 9
+        },
+        {
+          "name": "TypeScript",
+          "level": 8
+        },
+        {
+          "name": "Java",
+          "level": 5
+        },
+        {
+          "name": "Spring Boot",
+          "level": 5
+        },
+        {
+          "name": "HTML5-CSS-Bootstrap",
+          "level": 9
+        },
+        {
+          "name": "Git",
+          "level": 8
+        }
       ]
     },
     {
-      "titleKey": "profile.Soft Skills",
+      "titleKey": "profile.softSkills",
       "skills": [
-        { "name": "Làm việc nhóm", "level": 8, "icon": "SiTeamcity" },
-        { "name": "Giao tiếp", "level": 7 },
+        { "name": "Làm việc nhóm", "level": 6, "icon": "SiTeamcity" },
+        { "name": "Giao tiếp", "level": 5 },
         { "name": "Giải quyết vấn đề", "level": 8 }
       ]
     }

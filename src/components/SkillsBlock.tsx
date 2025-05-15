@@ -1,4 +1,5 @@
 import type {Skill} from "../model/Skill.ts";
+import {resolveSkillIcon} from "./SkillsIcon.tsx";
 
 export default function SkillBlock({ title, skills }: { title: string; skills: Skill[] }) {
   return (
@@ -8,7 +9,7 @@ export default function SkillBlock({ title, skills }: { title: string; skills: S
         {skills.map((skill, i) => (
           <div key={i}>
             <div className="flex justify-between items-center text-xs font-medium">
-                { <span className="text-base flex gap-2 items-center text-[rgb(var(--primary))]">{skill.icon}
+                { <span className="text-base flex gap-2 items-center text-[rgb(var(--primary))]">{resolveSkillIcon(skill.name)}
                  <span className="text-[rgb(var(--text))]">{skill.name}</span></span>}
               <span className="text-[rgb(var(--text))]">{skill.level}/10</span>
             </div>

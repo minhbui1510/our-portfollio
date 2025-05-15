@@ -11,6 +11,11 @@
     "address": "Group 9, Zone 3, Hai Quan Crossroad",
     "website": "http://fb.com/haiminh1510"
   },
+  "term": {
+    "goals": "Career Goals",
+    "shortTerm": "Deepen expertise in Angular and TypeScript, while expanding into React to handle multi-platform projects. Enhance skills in UI performance optimization and responsive design techniques.",
+    "longTerm": "Become a Front-end Tech Lead within 3 years, capable of guiding UI architecture, mentoring junior developers, and leading teams to deliver scalable and user-centric web interfaces."
+  },
   "timeline": [
     {
       "title": "College Study",
@@ -79,8 +84,8 @@
         "teamSize": 10,
         "tools": [
           "VSCode",
-             "webstorm"
-     ],
+          "webstorm"
+        ],
         "technologies": [
           "Angular 9",
           "Bootstrap 5",
@@ -281,37 +286,44 @@
   ],
   "skills": [
     {
-      "titleKey": "profile.Technical Skills",
+      "titleKey": "profile.technicalSkills",
       "skills": [
         {
           "name": "Angular",
-          "level": 8,
-          "icon": "SiAngular"
+          "level": 8
         },
         {
           "name": "JavaScript",
-          "level": 9,
-          "icon": "SiJavascript"
+          "level": 9
+        },
+        {
+          "name": "TypeScript",
+          "level": 8
+        },
+        {
+          "name": "Java",
+          "level": 5
+        },
+        {
+          "name": "Spring Boot",
+          "level": 5
         },
         {
           "name": "HTML5-CSS-Bootstrap",
-          "level": 7,
-          "icon": "SiBootstrap"
+          "level": 9
         },
         {
           "name": "Git",
-          "level": 8,
-          "icon": "SiGit"
+          "level": 8
         }
       ]
     },
     {
-      "titleKey": "profile.Soft Skills",
+      "titleKey": "profile.softSkills",
       "skills": [
         {
           "name": "Teamwork",
-          "level": 8,
-          "icon": "SiTeamcity"
+          "level": 8
         },
         {
           "name": "Communication",

@@ -8,18 +8,34 @@ import {
     // Database
     FaDatabase, FaServer,
     // Fallback / General
-    FaCode, FaTerminal
+    FaCode, FaTerminal, FaCodeBranch
 } from 'react-icons/fa';
 
 import {
     // Frontend Techs
-    SiTailwindcss, SiTypescript, SiJavascript,
+    SiTailwindcss,
+    SiTypescript,
+    SiJavascript,
     // Backend Techs
     SiSpring,
     // Database Techs
-    SiMongodb, SiMysql, SiPostgresql, SiFirebase, SiOracle,
+    SiMongodb,
+    SiMysql,
+    SiPostgresql,
+    SiFirebase,
+    SiOracle,
     // Tools & IDEs
-    SiWebstorm, SiIntellijidea, SiPhpstorm, SiPycharm, SiRider, SiDocker, SiKubernetes, SiJenkins, SiPostman, SiPrimeng
+    SiWebstorm,
+    SiIntellijidea,
+    SiPhpstorm,
+    SiPycharm,
+    SiRider,
+    SiDocker,
+    SiKubernetes,
+    SiJenkins,
+    SiPostman,
+    SiPrimeng,
+    SiGit, SiGithub, SiGitlab, SiBitbucket
 } from 'react-icons/si';
 import {DiVisualstudio} from "react-icons/di";
 import {JSX} from 'react';
@@ -80,6 +96,12 @@ export function resolveSkillIcon(name: string): JSX.Element | null {
     if (clean.includes('phpstorm')) return <SiPhpstorm className="text-purple-400"/>;
     if (clean.includes('pycharm')) return <SiPycharm className="text-green-500"/>;
     if (clean.includes('rider')) return <SiRider className="text-red-500"/>;
+
+    if (clean.includes('git')) return <SiGit className="text-orange-500"/>;
+    if (clean.includes('github')) return <SiGithub className="text-gray-800"/>;
+    if (clean.includes('gitlab')) return <SiGitlab className="text-orange-600"/>;
+    if (clean.includes('bitbucket')) return <SiBitbucket className="text-blue-600"/>;
+    if (clean.includes('svn')) return <FaCodeBranch className="text-gray-500"/>;
 
 
     return <FaCode className="text-gray-400"/>;
