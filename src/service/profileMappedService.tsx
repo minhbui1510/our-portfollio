@@ -35,6 +35,7 @@ export const getMappedProfile = async (profile, lang = 'vi') => {
 
   return {
     profile: data.profile,
+    theme: data.theme,
     jobDescription,
     timelineData,
     awards: data.awards,

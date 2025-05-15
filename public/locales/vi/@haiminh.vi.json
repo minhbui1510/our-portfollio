@@ -1,46 +1,266 @@
 {
+  "theme": "theme-dark",
   "profile": {
     "name": "Bùi Hải Minh",
     "title": "Chuyên viên IT",
-    "avatarUrl": "/images/avatar.jpg",
+    "avatarUrl": "/avatar/haiminh.jpg",
     "birthday": "15/10/2000",
     "gender": "Nam",
     "phone": "0945837510",
-    "email": "buihai...@gmail.com",
+    "email": "buihaiminh@gmail.com",
     "address": "Tổ 9 Khu 3 Ngã 3 Hải Quân",
     "website": "http://fb.com/haiminh1510"
   },
   "timeline": [
     {
-      "title": "Học đại học",
-      "subtitle": "Trường CNTT Hà Nội",
-      "description": "Chuyên ngành CNTT",
-      "date": "2015 - 2019",
+      "title": "Học cao đẳng",
+      "subtitle": "Cao đẳng FPT",
+      "description": "Chuyên ngành ứng dụng phần mềm",
+      "date": "8/2018 - 12/2020",
       "type": "education",
       "icon": "FaGraduationCap",
       "bgColor": "#0ea5e9"
     },
     {
-      "title": "Làm việc tại ABC",
+      "title": "Học đại học",
+      "subtitle": "Đại học bưu chính viễn thông",
+      "description": "Chuyên ngành Công nghệ thông tin hệ đào tạo từ xa",
+      "date": "5/2023 - 12/2025",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Làm việc tại MB: BIZ-REBOOT2",
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "Git", "Jira"],
-        "technologies": ["Angular 16", "Micro Frontend", "Spring Boot", "Oracle"],
-        "shortDescription": "Phát triển hệ thống giao dịch doanh nghiệp MB.",
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "Angular 16",
+          "Micro Frontend",
+          "Bootstrap 5",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Phát triển phần mềm giao dịch doanh nghiệp MB.",
         "exp": [
           {
-            "title": "Phối hợp xử lý",
-            "content": "luồng chuyển tiền ngoại tệ giữa các phân hệ ngân hàng."
+            "title": "Phát triển giao diện người dùng",
+            "content": "Thiết kế và triển khai giao diện hệ thống doanh nghiệp MB bằng Angular 16 theo kiến trúc Micro Frontend, đảm bảo responsive trên đa thiết bị."
           },
           {
-            "title": "Tối ưu giao diện",
-            "content": "cải thiện trải nghiệm bằng component reuse và lazy loading."
+            "title": "Tối ưu hiệu suất giao diện",
+            "content": "Áp dụng lazy loading và dynamic import giúp rút ngắn thời gian tải trang trung bình xuống dưới 2 giây."
+          },
+          {
+            "title": "Xử lý nghiệp vụ ngân hàng",
+            "content": "Phối hợp backend để xử lý nghiệp vụ chuyển tiền ngoại tệ và đánh giá tính năng nghiệp vụ một cách chính xác, đảm bảo luồng dữ liệu nhất quán."
+          },
+          {
+            "title": "Xây dựng hệ thống component tái sử dụng",
+            "content": "Phát triển thư viện UI component nội bộ giúp tiết kiệm hơn 30% effort cho các tính năng mới, tăng tính đồng bộ toàn hệ thống."
           }
         ],
         "imageUrl": "public/project/MB_biz.png"
       },
-      "date": "2020 - Hiện tại",
+      "date": "05/2023 - Hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại MB: BACKOFFICE",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "Angular 9",
+          "Bootstrap 5",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Hệ thống nội bộ quản lý thông báo của MB.",
+        "exp": [
+          {
+            "title": "Xây dựng tính năng thông báo",
+            "content": "Phát triển module quản lý thông báo nội bộ trong hệ thống ngân hàng, hỗ trợ gửi/nhận thông báo cho toàn bộ nhân sự."
+          },
+          {
+            "title": "Hiểu luồng nghiệp vụ",
+            "content": "Phân tích và hiểu toàn bộ luồng xử lý từ backend đến frontend cho tính năng gửi thông báo."
+          }
+        ],
+        "imageUrl": "public/project/MB_backoffice.png"
+      },
+      "date": "11/2023 - Hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại MB: GAME BEE",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 5,
+        "tools": [
+          "VSCode",
+          "Webstorm"
+        ],
+        "technologies": [
+          "Angular",
+          "PrimeNG",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Chương trình quay giải thưởng trên app MBBank.",
+        "exp": [
+          {
+            "title": "Xây dựng UI game quay thưởng",
+            "content": "Phát triển giao diện vòng quay may mắn trên app MBBank, tích hợp hiệu ứng động và animation theo logic frontend."
+          },
+          {
+            "title": "Tối ưu responsive",
+            "content": "Đảm bảo hiển thị mượt mà trên mọi kích thước thiết bị nhờ cấu trúc responsive."
+          }
+        ],
+        "imageUrl": "public/project/gamebee.png"
+      },
+      "date": "03/2023 - 07/2023",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại MB: CMS",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 5,
+        "tools": [
+          "VSCode"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Phần mềm quản lý giải thưởng tại MB Bank.",
+        "exp": [
+          {
+            "title": "Phát triển logic xử lý giải thưởng",
+            "content": "Thiết kế và code logic frontend cho hệ thống quay thưởng, đảm bảo quy trình vận hành mượt mà và đúng nghiệp vụ."
+          }
+        ],
+        "imageUrl": "public/project/cms.png"
+      },
+      "date": "03/2023 - 05/2023",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại TPB: SALEAPP PORTAL",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "STS4",
+          "DataGird",
+          "Webstorm"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "PrimeNG",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Cổng thông tin quản lý khách hàng ngân hàng Tiền Phong.",
+        "exp": [
+          {
+            "title": "Phát triển hệ thống quản lý RM",
+            "content": "Xây dựng các tính năng báo cáo số liệu, kiểm tra CIF, và quản lý RM360/CB/RB theo yêu cầu ngân hàng."
+          }
+        ],
+        "imageUrl": "public/project/saleapp.png"
+      },
+      "date": "11/2021 - 03/2022",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại TPB: CASH MANAGEMENT",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "STS4",
+          "DataGird",
+          "Webstorm"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Material",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Hệ thống core quản lý tài khoản ngân hàng doanh nghiệp.",
+        "exp": [
+          {
+            "title": "Xử lý luồng dữ liệu doanh nghiệp",
+            "content": "Xây dựng giao diện sơ đồ doanh nghiệp và các thao tác xử lý liên quan đến tài khoản ngân hàng của khách hàng tổ chức."
+          }
+        ],
+        "imageUrl": "public/project/cashmgmt.png"
+      },
+      "date": "11/2021 - 03/2022",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại UNIFORM - LPB",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "STS4",
+          "DataGird"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Material",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Phần mềm hỗ trợ giao dịch viên ngân hàng.",
+        "exp": [
+          {
+            "title": "Phát triển giao diện nghiệp vụ lớn",
+            "content": "Thiết kế các giao diện nghiệp vụ phức tạp như xử lý ngày-tháng, và biểu mẫu đa tầng, đảm bảo đúng logic nghiệp vụ ngân hàng."
+          },
+          {
+            "title": "Tối ưu hiệu suất hiển thị",
+            "content": "Tối ưu hiệu năng cho giao diện hiển thị dữ liệu lớn bằng lazy load và chia module theo chức năng."
+          }
+        ],
+        "imageUrl": "public/project/uniform.png"
+      },
+      "date": "04/2021 - 11/2021",
       "type": "work",
       "icon": "FaBriefcase",
       "bgColor": "#f97316"
@@ -62,18 +282,44 @@
     {
       "titleKey": "profile.technicalSkills",
       "skills": [
-        { "name": "Angular", "level": 8, "icon": "SiAngular" },
-        { "name": "JavaScript", "level": 9, "icon": "SiJavascript" },
-        { "name": "HTML5-CSS-Bootstrap", "level": 7, "icon": "SiBootstrap" },
-        { "name": "Git", "level": 8, "icon": "SiGit" }
+        {
+          "name": "Angular",
+          "level": 8,
+          "icon": "SiAngular"
+        },
+        {
+          "name": "JavaScript",
+          "level": 9,
+          "icon": "SiJavascript"
+        },
+        {
+          "name": "HTML5-CSS-Bootstrap",
+          "level": 7,
+          "icon": "SiBootstrap"
+        },
+        {
+          "name": "Git",
+          "level": 8,
+          "icon": "SiGit"
+        }
       ]
     },
     {
       "titleKey": "profile.softSkills",
       "skills": [
-        { "name": "Teamwork", "level": 8, "icon": "SiTeamcity" },
-        { "name": "Communication", "level": 7 },
-        { "name": "Problem Solving", "level": 8 }
+        {
+          "name": "Teamwork",
+          "level": 8,
+          "icon": "SiTeamcity"
+        },
+        {
+          "name": "Communication",
+          "level": 7
+        },
+        {
+          "name": "Problem Solving",
+          "level": 8
+        }
       ]
     }
   ]

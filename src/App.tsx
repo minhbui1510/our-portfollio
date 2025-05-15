@@ -13,7 +13,6 @@ function App() {
                 <h1 className="text-2xl text-bold  text-[rgb(var(--text))]">{t('MyPortfolio')}</h1>
                 <Translate/>
             </div>
-            <ThemeSwitcher/>
             <div className=" mt-2 flex justify-center">
                 <Router/>
             </div>

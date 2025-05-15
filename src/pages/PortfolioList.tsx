@@ -1,15 +1,21 @@
-import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaVuejs, FaFigma, FaGithub, FaLinkedin } from "react-icons/fa";
-import {JSX} from "react";
+import {motion} from "framer-motion";
+import {FaReact, FaNodeJs, FaVuejs, FaFigma, FaGithub, FaLinkedin} from "react-icons/fa";
+import {JSX, useEffect} from "react";
 import {useNavigate} from "react-router-dom";
+import {useTheme} from "../context/ThemeContext.tsx";
+import {resolveSkillIcon} from "../components/SkillsIcon.tsx";
 
 export default function PortfolioList() {
     const navigate = useNavigate();
+    const {setTheme} = useTheme();
+    useEffect(() => {
+        setTheme('theme-light');
+    }, []);
     const people = [
         {
             name: "Bùi Hải Minh",
             avatar: "https://i.pravatar.cc/150?img=1",
-            skills: ["React", "Node.js", "Figma"],
+            skills: ["React", "Angular", "Figma"],
             github: "https://github.com/nguyenvana",
             linkedin: "https://linkedin.com/in/nguyenvana",
             id: '@haiminh'
@@ -26,13 +32,6 @@ export default function PortfolioList() {
     // router detail by id
 
 
-    // mapping skill name to icon
-    const skillIcons: Record<string, JSX.Element> = {
-        "React": <FaReact className="text-sky-400" />,
-        "Node.js": <FaNodeJs className="text-green-600" />,
-        "Vue": <FaVuejs className="text-emerald-500" />,
-        "Figma": <FaFigma className="text-pink-500" />
-    };
 
     return (
         <motion.div
@@ -40,7 +39,7 @@ export default function PortfolioList() {
             initial="hidden"
             animate="visible"
             variants={{
-                visible: { transition: { staggerChildren: 0.2 } },
+                visible: {transition: {staggerChildren: 0.2}},
                 hidden: {}
             }}
         >
@@ -49,10 +48,10 @@ export default function PortfolioList() {
                     key={index}
                     className="bg-[rgb(var(--primary)/0.2)] p-4 rounded-lg shadow-md"
                     variants={{
-                        hidden: { opacity: 0, y: 30 },
-                        visible: { opacity: 1, y: 0 }
+                        hidden: {opacity: 0, y: 30},
+                        visible: {opacity: 1, y: 0}
                     }}
-                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    transition={{duration: 0.5, ease: "easeOut"}}
                 >
                     {/* Dòng 1: Avatar + Họ tên */}
                     <div className="flex items-center gap-3 mb-2">
@@ -62,7 +61,7 @@ export default function PortfolioList() {
                             className="w-10 h-10 rounded-full"
                         />
                         <h2 className="text-lg font-semibold text-[rgb(var(--text))] hover:text-[rgb(var(--primary))] cursor-pointer"
-                        onClick={() => navigate(`/${person.id}`)} // Navigate to detail page
+                            onClick={() => navigate(`/${person.id}`)} // Navigate to detail page
                         >
                             {person.name}
                         </h2>
@@ -72,7 +71,7 @@ export default function PortfolioList() {
                     <div className="flex items-center gap-3 text-sm text-[rgb(var(--text))] mb-2">
                         {person.skills.map((skill, i) => (
                             <div key={i} className="flex items-center gap-1">
-                                {skillIcons[skill] ?? null}
+                                {resolveSkillIcon(skill) ?? null}
                                 <span>{skill}</span>
                             </div>
                         ))}
@@ -81,10 +80,10 @@ export default function PortfolioList() {
                     {/* Dòng 3: Nút liên hệ */}
                     <div className="flex gap-3">
                         <a href={person.github} target="_blank" rel="noopener noreferrer">
-                            <FaGithub className="w-5 h-5 hover:text-[rgb(var(--primary))]" />
+                            <FaGithub className="w-5 h-5 hover:text-[rgb(var(--primary))]"/>
                         </a>
                         <a href={person.linkedin} target="_blank" rel="noopener noreferrer">
-                            <FaLinkedin className="w-5 h-5 hover:text-[rgb(var(--primary))]" />
+                            <FaLinkedin className="w-5 h-5 hover:text-[rgb(var(--primary))]"/>
                         </a>
                     </div>
                 </motion.div>

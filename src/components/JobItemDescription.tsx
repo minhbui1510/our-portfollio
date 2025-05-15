@@ -4,6 +4,7 @@ import {getToolIcon, getTechIcon} from './ToolTechIconMap';
 import type {JobDescription} from "../model/TimeLineItem.ts";
 import ImageLightbox from "./ImageLightbox.tsx";
 import {useState} from "react";
+import {resolveSkillIcon} from "./SkillsIcon.tsx";
 
 interface Props {
     item: JobDescription;
@@ -47,7 +48,7 @@ export default function JobItemDescription({item}: Props) {
                                         key={i}
                                         className="flex items-center gap-1 bg-[rgb(var(--accent)/0.15)] px-2 py-1 rounded text-xs"
                                     >
-                                        {getToolIcon(tool)} {tool}
+                                        {resolveSkillIcon(tool)} {tool}
                                     </div>
                                 ))}
                             </div>
@@ -62,7 +63,7 @@ export default function JobItemDescription({item}: Props) {
                                         key={i}
                                         className="flex items-center gap-1 bg-[rgb(var(--accent)/0.15)] px-2 py-1 rounded text-xs"
                                     >
-                                        {getTechIcon(tech)} {tech}
+                                        {resolveSkillIcon(tech)} {tech}
                                     </div>
                                 ))}
                             </div>
