@@ -36,3 +36,11 @@
 .vertical-timeline::before {
   background: rgb(var(--primary)) !important; /* dùng biến theme */
 }
+.gradiant-bg {
+  background: linear-gradient(
+    135deg,
+    rgb(var(--bg)) 0%,
+    rgb(var(--primary)) 50%,
+    rgb(var(--bg)) 100%
+  );
+}
