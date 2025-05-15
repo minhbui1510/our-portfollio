@@ -35,9 +35,9 @@ import {
     SiJenkins,
     SiPostman,
     SiPrimeng,
-    SiGit, SiGithub, SiGitlab, SiBitbucket
+    SiGit, SiGithub, SiGitlab, SiBitbucket, SiDotnet, SiExpress, SiJest, SiApachekafka, SiNestjs, SiRabbitmq, SiTypeorm
 } from 'react-icons/si';
-import {DiVisualstudio} from "react-icons/di";
+import {DiRedis, DiVisualstudio} from "react-icons/di";
 import {JSX} from 'react';
 
 export function resolveSkillIcon(name: string): JSX.Element | null {
@@ -51,7 +51,7 @@ export function resolveSkillIcon(name: string): JSX.Element | null {
     if (clean.includes('javascript')) return <SiJavascript className="text-yellow-400"/>;
     if (clean.includes('tailwind')) return <SiTailwindcss className="text-cyan-400"/>;
     if (clean.includes('micro')) return <FaCubes className="text-purple-500"/>;
-    if (clean.includes('bootstrap')) return <FaBootstrap className="text-indigo-600"/>;
+    if (clean.includes('boot    strap')) return <FaBootstrap className="text-indigo-600"/>;
     if (clean.includes('html')) return <FaCode className="text-orange-600"/>;
     if (clean.includes('css')) return <FaCode className="text-blue-600"/>;
     if (clean.includes('scss')) return <FaCode className="text-pink-600"/>;
@@ -102,6 +102,16 @@ export function resolveSkillIcon(name: string): JSX.Element | null {
     if (clean.includes('gitlab')) return <SiGitlab className="text-orange-600"/>;
     if (clean.includes('bitbucket')) return <SiBitbucket className="text-blue-600"/>;
     if (clean.includes('svn')) return <FaCodeBranch className="text-gray-500"/>;
+    if (clean.includes('c#')) return <FaCode className="text-blue-700"/>;
+    if (clean.includes('.net')) return <SiDotnet className="text-purple-700"/>;
+    if (clean.includes('express')) return <SiExpress className="text-gray-800"/>;
+    if (clean.includes('jest')) return <SiJest className="text-red-500"/>;
+    if (clean.includes('kafka')) return <SiApachekafka className="text-orange-600"/>;
+    if (clean.includes('nestjs')) return <SiNestjs className="text-red-600"/>;
+    if (clean.includes('rabbitmq')) return <SiRabbitmq className="text-orange-500"/>;
+    if (clean.includes('redis')) return <DiRedis className="text-red-600"/>;
+    if (clean.includes('typeorm')) return <SiTypeorm className="text-purple-600"/>;
+    if (clean.includes('entity framework')) return <FaDatabase className="text-blue-600"/>;
 
 
     return <FaCode className="text-gray-400"/>;

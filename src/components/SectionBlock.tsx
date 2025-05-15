@@ -8,7 +8,7 @@ export default function SectionBlock({ title, items }: SectionBlockProps) {
       </h3>
 
       <div className="space-y-4 mt-2 text-sm text-[rgb(var(--text))]">
-        {items.map((item, index) => (
+        {items?.map((item, index) => (
           <div key={index}>
             <p className="text-[rgb(var(--primary))] font-semibold">{item.date}</p>
             <p className="whitespace-pre-line">{item.content}</p>

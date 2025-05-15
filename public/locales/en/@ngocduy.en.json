@@ -1,0 +1,240 @@
+{
+  "theme": "theme-dark",
+  "profile": {
+    "name": "Nguyen Ngoc Duy",
+    "title": "Full-stack Developer / Software Engineer",
+    "avatarUrl": "",
+    "birthday": "",
+    "gender": "Male",
+    "phone": "0396611646",
+    "email": "duy13.work@gmail.com",
+    "address": "Ha Dong, Ha Noi",
+    "website": ""
+  },
+  "term": {
+    "goals": "Career Goals",
+    "shortTerm": "Enhance skills in scalable backend systems with NodeJS and NestJS, while deepening proficiency in PostgreSQL and ReactJS frontend architecture.",
+    "longTerm": "Become a solution architect in 5 years, leading cross-functional teams to build full-stack, high-performance systems for enterprise-scale platforms."
+  },
+  "timeline": [
+    {
+      "title": "University Study",
+      "subtitle": "FPT University",
+      "description": "Bachelor\u2019s Degree in IT - Software Engineering",
+      "date": "10/2020 - 12/2023",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Working at SETA INTERNATIONAL: Advertising Analytics Project",
+      "subtitle": "Software Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "NodeJS",
+          "Express",
+          "PostgreSQL",
+          "ReactJS"
+        ],
+        "shortDescription": "Attribution analysis platform for correlating broadcast ads with web traffic.",
+        "exp": [
+          {
+            "title": "API & DB Optimization",
+            "content": "Developed RESTful APIs and optimized PostgreSQL queries and schemas for analytics performance."
+          },
+          {
+            "title": "Frontend Collaboration",
+            "content": "Integrated ReactJS dashboards and data visualizations."
+          }
+        ]
+      },
+      "date": "03/2023 - Present",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Working at SETA INTERNATIONAL: Cross-platform Learning Project",
+      "subtitle": "Software Developer",
+      "description": {
+        "teamSize": 15,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "NodeJS",
+          "NestJS",
+          "PostgreSQL",
+          "TypeORM",
+          "Jest"
+        ],
+        "shortDescription": "Lesson and class management platform with scalable backend.",
+        "exp": [
+          {
+            "title": "Backend Development",
+            "content": "Built modular, maintainable services with NestJS, supporting authentication and content delivery."
+          },
+          {
+            "title": "Testing and Analytics",
+            "content": "Implemented testing and integrated PostgreSQL stored procedures for analytics."
+          }
+        ]
+      },
+      "date": "03/2023 - Present",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Working at WORLDNEXA",
+      "subtitle": "Software Developer",
+      "description": {
+        "teamSize": 5,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "NestJS",
+          "Kafka",
+          "NodeJS",
+          "ReactJS",
+          "TailwindCSS",
+          "PostgreSQL",
+          "MongoDB",
+          "Redis"
+        ],
+        "shortDescription": "AI-enhanced education platform with microservices architecture.",
+        "exp": [
+          {
+            "title": "Microservices Architecture",
+            "content": "Implemented backend infrastructure and real-time processing with Kafka and Redis."
+          },
+          {
+            "title": "Frontend and Caching",
+            "content": "Built student interfaces and optimized load times using Redis and TailwindCSS."
+          }
+        ]
+      },
+      "date": "06/2022 - 02/2023",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Working at TRUE CONNECT",
+      "subtitle": "Software Developer",
+      "description": {
+        "teamSize": 20,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "C#",
+          ".NET",
+          "Entity Framework",
+          "PostgreSQL",
+          "RabbitMQ",
+          "Redis",
+          "AngularJS"
+        ],
+        "shortDescription": "Distributed pharmacy management system with microservices.",
+        "exp": [
+          {
+            "title": "Microservice Development",
+            "content": "Built APIs, handled message queues, and caching for performance improvement."
+          },
+          {
+            "title": "System Design",
+            "content": "Led backend and frontend integration and automated deployment pipelines."
+          }
+        ]
+      },
+      "date": "03/2021 - 05/2022",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    }
+  ],
+  "certificates": [
+    {
+      "date": "2020 - 2022",
+      "content": "IELTS 6.5 certificate"
+    }
+  ],
+  "skills": [
+    {
+      "titleKey": "profile.technicalSkills",
+      "skills": [
+        {
+          "name": "NodeJS",
+          "level": 8
+        },
+        {
+          "name": "NestJS",
+          "level": 8
+        },
+        {
+          "name": ".NET",
+          "level": 6
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 8
+        },
+        {
+          "name": "MongoDB",
+          "level": 6
+        },
+        {
+          "name": "Redis",
+          "level": 6
+        },
+        {
+          "name": "ReactJS",
+          "level": 7
+        },
+        {
+          "name": "HTML/CSS/SCSS",
+          "level": 7
+        },
+        {
+          "name": "TailwindCSS",
+          "level": 7
+        },
+        {
+          "name": "Git",
+          "level": 7
+        },
+        {
+          "name": "Docker",
+          "level": 6
+        }
+      ]
+    },
+    {
+                              "titleKey": "profile.softSkills",
+      "skills": [
+        {
+          "name": "Communication",
+          "level": 8
+        },
+        {
+          "name": "Problem Solving",
+          "level": 8
+        },
+        {
+          "name": "Teamwork",
+          "level": 8
+        }
+      ]
+    }
+  ]
+}

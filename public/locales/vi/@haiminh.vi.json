@@ -61,7 +61,7 @@
             "content": "Xây dựng thư viện component UI nội bộ giúp tiết kiệm trên 30% công sức phát triển tính năng mới và tăng độ đồng nhất giao diện."
           }
         ],
-        "imageUrl": "public/project/MB_biz.png"
+        "imageUrl": "/project/MB_biz.png"
       },
       "date": "05/2023 - Hiện tại",
       "type": "work",
@@ -86,7 +86,7 @@
             "content": "Phân tích và vẽ lại toàn bộ luồng nghiệp vụ từ backend tới frontend cho tính năng thông báo."
           }
         ],
-        "imageUrl": "public/project/MB_backoffice.png"
+        "imageUrl": "/project/MB_backoffice.png"
       },
       "date": "11/2023 - Hiện tại",
       "type": "work",
@@ -111,7 +111,7 @@
             "content": "Đảm bảo hiển thị mượt mà trên nhiều kích cỡ màn hình nhờ kỹ thuật responsive layout."
           }
         ],
-        "imageUrl": "public/project/MB_GameBee.jpg"
+        "imageUrl": "/project/MB_GameBee.jpg"
       },
       "date": "03/2023 - 07/2023",
       "type": "work",
@@ -132,7 +132,7 @@
             "content": "Thiết kế và triển khai logic frontend cho hệ thống quay thưởng, đảm bảo hoạt động nghiệp vụ chính xác."
           }
         ],
-        "imageUrl": "public/project/MB_CMS.png"
+        "imageUrl": "/project/MB_CMS.png"
       },
       "date": "03/2023 - 05/2023",
       "type": "work",
@@ -153,7 +153,7 @@
             "content": "Phát triển các chức năng báo cáo, kiểm tra CIF, quản lý RM360/CB/RB theo yêu cầu ngân hàng."
           }
         ],
-        "imageUrl": "public/project/TPB_Saleapp.png"
+        "imageUrl": "/project/TPB_Saleapp.png"
       },
       "date": "11/2021 - 03/2022",
       "type": "work",
@@ -174,7 +174,7 @@
             "content": "Xây dựng giao diện ánh xạ tài khoản doanh nghiệp và các thao tác nghiệp vụ liên quan tới khách hàng tổ chức."
           }
         ],
-        "imageUrl": "public/project/TPB_Biz.png"
+        "imageUrl": "/project/TPB_Biz.png"
       },
       "date": "11/2021 - 03/2022",
       "type": "work",
@@ -199,7 +199,7 @@
             "content": "Tối ưu hóa việc render dữ liệu lớn thông qua tách module và sử dụng lazy loading."
           }
         ],
-        "imageUrl": "public/project/LPB_uniform.png"
+        "imageUrl": "/project/LPB_uniform.png"
       },
       "date": "04/2021 - 11/2021",
       "type": "work",

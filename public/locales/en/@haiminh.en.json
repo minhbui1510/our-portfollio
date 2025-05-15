@@ -70,7 +70,7 @@
             "content": "Developed an internal UI component library, reducing development effort for new features by over 30% and improving consistency."
           }
         ],
-        "imageUrl": "public/project/MB_biz.png"
+        "imageUrl": "/project/MB_biz.png"
       },
       "date": "05/2023 - Hiện tại",
       "type": "work",
@@ -103,7 +103,7 @@
             "content": "Analyzed and mapped the entire backend-to-frontend workflow for the notification feature."
           }
         ],
-        "imageUrl": "public/project/MB_backoffice.png"
+        "imageUrl": "/project/MB_backoffice.png"
       },
       "date": "11/2023 - Hiện tại",
       "type": "work",
@@ -136,7 +136,7 @@
             "content": "Ensured smooth performance across various screen sizes using responsive layout techniques."
           }
         ],
-        "imageUrl": "public/project/MB_GameBee.jpg"
+        "imageUrl": "/project/MB_GameBee.jpg"
       },
       "date": "03/2023 - 07/2023",
       "type": "work",
@@ -164,7 +164,7 @@
             "content": "Designed and implemented frontend logic for the prize draw system, ensuring correct business operation."
           }
         ],
-        "imageUrl": "public/project/MB_CMS.png"
+        "imageUrl": "/project/MB_CMS.png"
       },
       "date": "03/2023 - 05/2023",
       "type": "work",
@@ -197,7 +197,7 @@
             "content": "Developed features for reporting, CIF checking, and RM360/CB/RB management as per bank requirements."
           }
         ],
-        "imageUrl": "public/project/TPB_Saleapp.png"
+        "imageUrl": "/project/TPB_Saleapp.png"
       },
       "date": "11/2021 - 03/2022",
       "type": "work",
@@ -229,7 +229,7 @@
             "content": "Created UI for enterprise account mapping and operations involving organizational banking clients."
           }
         ],
-        "imageUrl": "public/project/TPB_Biz.png"
+        "imageUrl": "/project/TPB_Biz.png"
       },
       "date": "11/2021 - 03/2022",
       "type": "work",
@@ -264,7 +264,7 @@
             "content": "Enhanced large dataset rendering through module splitting and lazy loading."
           }
         ],
-        "imageUrl": "public/project/LPB_uniform.png"
+        "imageUrl": "/project/LPB_uniform.png"
       },
       "date": "04/2021 - 11/2021",
       "type": "work",
