@@ -1,0 +1,241 @@
+{
+  "theme": "theme-green",
+  "profile": {
+    "name": "Nguyen Ngoc Duy",
+    "title": "Lập trình viên Full-stack / Kỹ sư phần mềm",
+    "avatarUrl": "",
+    "birthday": "",
+    "gender": "Male",
+    "phone": "0396611646",
+    "email": "duy13.work@gmail.com",
+    "address": "Ha Dong, Ha Noi",
+    "website": ""
+  },
+  "term": {
+    "goals": "Mục tiêu nghề nghiệp",
+    "shortTerm": "Nâng cao kỹ năng phát triển hệ thống backend có khả năng mở rộng với NodeJS và NestJS, đồng thời củng cố chuyên môn về PostgreSQL và kiến trúc frontend ReactJS.",
+    "longTerm": "Trở thành kiến trúc sư giải pháp trong 5 năm tới, dẫn dắt các nhóm kỹ thuật xây dựng hệ thống full-stack hiệu suất cao cho các nền tảng quy mô doanh nghiệp."
+  },
+  "timeline": [
+    {
+      "title": "Học đại học",
+      "subtitle": "Đại học FPT",
+      "description": "Cử nhân Công nghệ Thông tin - Kỹ thuật phần mềm",
+      "date": "10/2020 - 12/2023",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Làm việc tại SETA INTERNATIONAL: Dự án phân tích quảng cáo",
+      "subtitle": "Lập trình viên phần mềm",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "NodeJS",
+          "Express",
+          "PostgreSQL",
+          "ReactJS"
+        ],
+        "shortDescription": "Nền tảng phân tích gán kết nối quảng cáo truyền hình với lưu lượng truy cập web.",
+        "exp": [
+          {
+            "title": "Tối ưu API và cơ sở dữ liệu",
+            "content": "Phát triển API RESTful và tối ưu truy vấn, lược đồ PostgreSQL cho hiệu suất phân tích."
+          },
+          {
+            "title": "Phối hợp giao diện người dùng",
+            "content": "Tích hợp bảng điều khiển ReactJS và trực quan hóa dữ liệu."
+          }
+        ]
+      },
+      "date": "03/2023 - Nay",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại SETA INTERNATIONAL: Dự án học tập đa nền tảng",
+      "subtitle": "Lập trình viên phần mềm",
+      "description": {
+        "teamSize": 15,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "NodeJS",
+          "NestJS",
+          "PostgreSQL",
+          "TypeORM",
+          "Jest"
+        ],
+        "shortDescription": "Nền tảng quản lý lớp học và bài giảng với backend có khả năng mở rộng.",
+        "exp": [
+          {
+            "title": "Phát triển backend",
+            "content": "Xây dựng dịch vụ mô-đun, dễ bảo trì với NestJS, hỗ trợ xác thực và phân phối nội dung."
+          },
+          {
+            "title": "Kiểm thử và phân tích",
+            "content": "Thực hiện kiểm thử và tích hợp thủ tục lưu trữ PostgreSQL cho mục đích phân tích."
+          }
+        ]
+      },
+      "date": "03/2023 - Nay",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại WORLDNEXA",
+      "subtitle": "Lập trình viên phần mềm",
+      "description": {
+        "teamSize": 5,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "NestJS",
+          "Kafka",
+          "NodeJS",
+          "ReactJS",
+          "TailwindCSS",
+          "PostgreSQL",
+          "MongoDB",
+          "Redis"
+        ],
+        "shortDescription": "Nền tảng giáo dục tích hợp AI với kiến trúc vi dịch vụ.",
+        "exp": [
+          {
+            "title": "Kiến trúc vi dịch vụ",
+            "content": "Triển khai hạ tầng backend và xử lý thời gian thực với Kafka và Redis."
+          },
+          {
+            "title": "Giao diện người dùng và bộ nhớ đệm",
+            "content": "Xây dựng giao diện người học và tối ưu thời gian tải bằng Redis và TailwindCSS."
+          }
+        ]
+      },
+      "date": "06/2022 - 02/2023",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại TRUE CONNECT",
+      "subtitle": "Lập trình viên phần mềm",
+      "description": {
+        "teamSize": 20,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "C#",
+          ".NET",
+          "Entity Framework",
+          "PostgreSQL",
+          "RabbitMQ",
+          "Redis",
+          "AngularJS"
+        ],
+        "shortDescription": "Hệ thống quản lý nhà thuốc phân tán sử dụng kiến trúc vi dịch vụ.",
+        "exp": [
+          {
+            "title": "Phát triển vi dịch vụ",
+            "content": "Xây dựng API, xử lý hàng đợi tin nhắn và bộ nhớ đệm để cải thiện hiệu suất."
+          },
+          {
+            "title": "Thiết kế hệ thống",
+            "content": "Dẫn dắt tích hợp backend - frontend và tự động hóa quy trình triển khai."
+          }
+        ]
+      },
+      "date": "03/2021 - 05/2022",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    }
+  ],
+  "certificates": [
+    {
+      "date": "2020 - 2022",
+      "content": "Chứng chỉ IELTS 6.5"
+    }
+  ],
+  "skills": [
+    {
+     "titleKey": "profile.technicalSkills",
+      "skills": [
+        {
+          "name": "NodeJS",
+          "level": 8
+        },
+        {
+          "name": "NestJS",
+          "level": 8
+        },
+        {
+          "name": ".NET",
+          "level": 6
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 8
+        },
+        {
+          "name": "MongoDB",
+          "level": 6
+        },
+        {
+          "name": "Redis",
+          "level": 6
+        },
+        {
+          "name": "ReactJS",
+          "level": 7
+        },
+        {
+          "name": "HTML/CSS/SCSS",
+          "level": 7
+        },
+        {
+          "name": "TailwindCSS",
+          "level": 7
+        },
+        {
+          "name": "Git",
+          "level": 7
+        },
+        {
+          "name": "Docker",
+          "level": 6
+        }
+      ]
+    },
+    {
+           "titleKey": "profile.softSkills",
+
+      "skills": [
+        {
+          "name": "Giao tiếp",
+          "level": 8
+        },
+        {
+          "name": "Giải quyết vấn đề",
+          "level": 8
+        },
+        {
+          "name": "Làm việc nhóm",
+          "level": 8
+        }
+      ]
+    }
+  ]
+}

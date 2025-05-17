@@ -1,0 +1,339 @@
+{
+  "theme": "theme-dark",
+  "profile": {
+    "name": "Bùi Hải Minh",
+    "title": "IT Specialist",
+    "avatarUrl": "/avatar/haiminh.jpeg",
+    "birthday": "15/10/2000",
+    "gender": "Male",
+    "phone": "0945837510",
+    "email": "buihaiminh@gmail.com",
+    "address": "Group 9, Zone 3, Hai Quan Crossroad",
+    "website": "http://fb.com/haiminh1510"
+  },
+  "term": {
+    "goals": "Career Goals",
+    "shortTerm": "Deepen expertise in Angular and TypeScript, while expanding into React to handle multi-platform projects. Enhance skills in UI performance optimization and responsive design techniques.",
+    "longTerm": "Become a Front-end Tech Lead within 3 years, capable of guiding UI architecture, mentoring junior developers, and leading teams to deliver scalable and user-centric web interfaces."
+  },
+  "timeline": [
+    {
+      "title": "College Study",
+      "subtitle": "FPT Polytechnic College",
+      "description": "Major in Software Applications",
+      "date": "8/2018 - 12/2020",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "University Study",
+      "subtitle": "Posts and Telecommunications Institute of Technology",
+      "description": "Major in Information Technology (Distance Education Program)",
+      "date": "5/2023 - 12/2025",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Working at MB: BIZ-REBOOT2",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "Angular 16",
+          "Micro Frontend",
+          "Bootstrap 5",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Enterprise transaction software development for MB.",
+        "exp": [
+          {
+            "title": "UI Development",
+            "content": "Designed and implemented the enterprise system interface using Angular 16 with Micro Frontend architecture, ensuring responsiveness across devices."
+          },
+          {
+            "title": "Performance Optimization",
+            "content": "Applied lazy loading and dynamic import techniques to reduce average page load time to under 2 seconds."
+          },
+          {
+            "title": "Banking Business Logic Handling",
+            "content": "Collaborated with backend team to handle foreign currency transfer flows and accurately assess business features, ensuring data consistency."
+          },
+          {
+            "title": "Reusable Component System",
+            "content": "Developed an internal UI component library, reducing development effort for new features by over 30% and improving consistency."
+          }
+        ],
+        "imageUrl": "/project/MB_biz.png"
+      },
+      "date": "05/2023 - Hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Working at MB: BACKOFFICE",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "Angular 9",
+          "Bootstrap 5",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Internal notification management system for MB.",
+        "exp": [
+          {
+            "title": "Notification Feature Development",
+            "content": "Developed the internal notification module, enabling message delivery and reception across departments."
+          },
+          {
+            "title": "Business Flow Analysis",
+            "content": "Analyzed and mapped the entire backend-to-frontend workflow for the notification feature."
+          }
+        ],
+        "imageUrl": "/project/MB_backoffice.png"
+      },
+      "date": "11/2023 - Hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Working at MB: GAME BEE",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 5,
+        "tools": [
+          "VSCode",
+          "Webstorm"
+        ],
+        "technologies": [
+          "Angular",
+          "PrimeNG",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Prize wheel program on the MBBank app.",
+        "exp": [
+          {
+            "title": "Game UI Development",
+            "content": "Created the spinning prize wheel interface using Angular and animations aligned with frontend logic."
+          },
+          {
+            "title": "Responsive Optimization",
+            "content": "Ensured smooth performance across various screen sizes using responsive layout techniques."
+          }
+        ],
+        "imageUrl": "/project/MB_GameBee.jpg"
+      },
+      "date": "03/2023 - 07/2023",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Working at MB: CMS",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 5,
+        "tools": [
+          "VSCode"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Prize management software for MB Bank.",
+        "exp": [
+          {
+            "title": "Prize Logic Implementation",
+            "content": "Designed and implemented frontend logic for the prize draw system, ensuring correct business operation."
+          }
+        ],
+        "imageUrl": "/project/MB_CMS.png"
+      },
+      "date": "03/2023 - 05/2023",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Working at TPB: SALEAPP PORTAL",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "Spring tool suite 4",
+          "datagrid",
+          "Webstorm",
+          "Postman"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "PrimeNG",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Customer management portal for Tien Phong Bank.",
+        "exp": [
+          {
+            "title": "RM System Development",
+            "content": "Developed features for reporting, CIF checking, and RM360/CB/RB management as per bank requirements."
+          }
+        ],
+        "imageUrl": "/project/TPB_Saleapp.png"
+      },
+      "date": "11/2021 - 03/2022",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Working at TPB: CASH MANAGEMENT",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "STS4",
+          "DataGird",
+          "Webstorm"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Material",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Core banking account management system for enterprise clients.",
+        "exp": [
+          {
+            "title": "Enterprise Data Flow Handling",
+            "content": "Created UI for enterprise account mapping and operations involving organizational banking clients."
+          }
+        ],
+        "imageUrl": "/project/TPB_BIZ.png"
+      },
+      "date": "11/2021 - 03/2022",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Working at UNIFORM - LPB",
+      "subtitle": "Front-end Developer",
+      "description": {
+        "teamSize": 10,
+        "tools": [
+          "VSCode",
+          "STS4",
+          "DataGird"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Material",
+          "Spring Boot",
+          "Oracle"
+        ],
+        "shortDescription": "Support software for bank tellers.",
+        "exp": [
+          {
+            "title": "Large-scale Business UI Development",
+            "content": "Designed complex business interfaces including date logic handling and multi-level form structures."
+          },
+          {
+            "title": "UI Performance Optimization",
+            "content": "Enhanced large dataset rendering through module splitting and lazy loading."
+          }
+        ],
+        "imageUrl": "/project/LPB_uniform.png"
+      },
+      "date": "04/2021 - 11/2021",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    }
+  ],
+  "awards": [
+    {
+      "date": "12-2022",
+      "content": "Promising Staff Award"
+    }
+  ],
+  "certificates": [
+    {
+      "date": "09/2018 - 12/2019",
+      "content": "ENGLISH TOPNOTCH 2.2 at FPT Polytechnic College (Equivalent to IELTS 4.5)\nCertificates in Java and JavaScript by CodeLearn"
+    }
+  ],
+  "skills": [
+    {
+      "titleKey": "profile.technicalSkills",
+      "skills": [
+        {
+          "name": "Angular",
+          "level": 8
+        },
+        {
+          "name": "JavaScript",
+          "level": 9
+        },
+        {
+          "name": "TypeScript",
+          "level": 8
+        },
+        {
+          "name": "Java",
+          "level": 5
+        },
+        {
+          "name": "Spring Boot",
+          "level": 5
+        },
+        {
+          "name": "HTML5-CSS-Bootstrap",
+          "level": 9
+        },
+        {
+          "name": "Git",
+          "level": 8
+        }
+      ]
+    },
+    {
+      "titleKey": "profile.softSkills",
+      "skills": [
+        {
+          "name": "Teamwork",
+          "level": 8
+        },
+        {
+          "name": "Communication",
+          "level": 7
+        },
+        {
+          "name": "Problem Solving",
+          "level": 8
+        }
+      ]
+    }
+  ]
+}

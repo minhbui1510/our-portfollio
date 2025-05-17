@@ -1,0 +1,265 @@
+{
+  "theme": "theme-dark",
+  "profile": {
+    "name": "Bùi Hải Minh",
+    "title": "Chuyên viên CNTT",
+    "avatarUrl": "/avatar/haiminh.jpeg",
+    "birthday": "15/10/2000",
+    "gender": "Nam",
+    "phone": "0945837510",
+    "email": "buihaiminh@gmail.com",
+    "address": "Tổ 9, Khu 3, Ngã ba Hải Quân",
+    "website": "http://fb.com/haiminh1510"
+  },
+  "term": {
+      "goals": "Mục tiêu nghề nghiệp",
+    "shortTerm": "Tiếp tục rèn luyện chuyên sâu về Angular và TypeScript, kết hợp học thêm React để mở rộng khả năng tiếp cận dự án đa nền tảng. Nâng cao kỹ năng tối ưu hiệu suất giao diện và kỹ thuật responsive.",
+    "longTerm": "Trở thành Front-end Tech Lead trong 3 năm tới, có khả năng định hướng kiến trúc giao diện, mentor cho junior developer, và cùng team xây dựng những sản phẩm UI thân thiện, hiệu quả và có khả năng mở rộng cao."
+  },
+  "timeline": [
+    {
+      "title": "Học cao đẳng",
+      "subtitle": "Cao đẳng thực hành FPT Polytechnic",
+      "description": "Chuyên ngành Ứng dụng phần mềm",
+      "date": "8/2018 - 12/2020",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Học đại học",
+      "subtitle": "Học viện Công nghệ Bưu chính Viễn thông",
+      "description": "Chuyên ngành Công nghệ Thông tin (Hệ đào tạo từ xa)",
+      "date": "5/2023 - 12/2025",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Làm việc tại MB: BIZ-REBOOT2",
+      "subtitle": "Lập trình viên Front-end",
+      "description": {
+        "teamSize": 10,
+        "tools": ["VSCode", "webstorm"],
+        "technologies": ["Angular 16", "Micro Frontend", "Bootstrap 5", "Spring Boot", "Oracle"],
+        "shortDescription": "Phát triển phần mềm giao dịch doanh nghiệp cho MB.",
+        "exp": [
+          {
+            "title": "Phát triển giao diện người dùng",
+            "content": "Thiết kế và triển khai giao diện hệ thống doanh nghiệp bằng Angular 16 kết hợp kiến trúc Micro Frontend, đảm bảo hiển thị tốt trên các thiết bị."
+          },
+          {
+            "title": "Tối ưu hiệu suất",
+            "content": "Áp dụng kỹ thuật lazy loading và dynamic import giúp giảm thời gian tải trang xuống dưới 2 giây."
+          },
+          {
+            "title": "Xử lý nghiệp vụ ngân hàng",
+            "content": "Phối hợp với backend xử lý luồng chuyển tiền ngoại tệ, đánh giá đúng nghiệp vụ và đảm bảo tính nhất quán dữ liệu."
+          },
+          {
+            "title": "Hệ thống component tái sử dụng",
+            "content": "Xây dựng thư viện component UI nội bộ giúp tiết kiệm trên 30% công sức phát triển tính năng mới và tăng độ đồng nhất giao diện."
+          }
+        ],
+        "imageUrl": "/project/MB_biz.png"
+      },
+      "date": "05/2023 - Hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại MB: BACKOFFICE",
+      "subtitle": "Lập trình viên Front-end",
+      "description": {
+        "teamSize": 10,
+        "tools": ["VSCode", "webstorm"],
+        "technologies": ["Angular 9", "Bootstrap 5", "Spring Boot", "Oracle"],
+        "shortDescription": "Hệ thống quản lý thông báo nội bộ cho MB.",
+        "exp": [
+          {
+            "title": "Phát triển tính năng thông báo",
+            "content": "Xây dựng module thông báo nội bộ, cho phép gửi và nhận tin nhắn giữa các phòng ban."
+          },
+          {
+            "title": "Phân tích luồng nghiệp vụ",
+            "content": "Phân tích và vẽ lại toàn bộ luồng nghiệp vụ từ backend tới frontend cho tính năng thông báo."
+          }
+        ],
+        "imageUrl": "/project/MB_backoffice.png"
+      },
+      "date": "11/2023 - Hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại MB: GAME BEE",
+      "subtitle": "Lập trình viên Front-end",
+      "description": {
+        "teamSize": 5,
+        "tools": ["VSCode", "Webstorm"],
+        "technologies": ["Angular", "PrimeNG", "Spring Boot", "Oracle"],
+        "shortDescription": "Chương trình vòng quay trúng thưởng trên ứng dụng MBBank.",
+        "exp": [
+          {
+            "title": "Phát triển giao diện game",
+            "content": "Thiết kế giao diện vòng quay trúng thưởng bằng Angular kết hợp animation, đồng bộ với logic frontend."
+          },
+          {
+            "title": "Tối ưu hiển thị",
+            "content": "Đảm bảo hiển thị mượt mà trên nhiều kích cỡ màn hình nhờ kỹ thuật responsive layout."
+          }
+        ],
+        "imageUrl": "/project/MB_GameBee.jpg"
+      },
+      "date": "03/2023 - 07/2023",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại MB: CMS",
+      "subtitle": "Lập trình viên Front-end",
+      "description": {
+        "teamSize": 5,
+        "tools": ["VSCode"],
+        "technologies": ["Angular", "Bootstrap", "Spring Boot", "Oracle"],
+        "shortDescription": "Phần mềm quản lý giải thưởng cho MB Bank.",
+        "exp": [
+          {
+            "title": "Xử lý logic quay thưởng",
+            "content": "Thiết kế và triển khai logic frontend cho hệ thống quay thưởng, đảm bảo hoạt động nghiệp vụ chính xác."
+          }
+        ],
+        "imageUrl": "/project/MB_CMS.png"
+      },
+      "date": "03/2023 - 05/2023",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại TPB: SALEAPP PORTAL",
+      "subtitle": "Lập trình viên Front-end",
+      "description": {
+        "teamSize": 10,
+        "tools": ["VSCode", "Spring tool suite 4", "datagrid", "Webstorm", "Postman"],
+        "technologies": ["Angular", "Bootstrap", "PrimeNG", "Spring Boot", "Oracle"],
+        "shortDescription": "Cổng quản lý khách hàng cho Ngân hàng Tiên Phong.",
+        "exp": [
+          {
+            "title": "Phát triển hệ thống RM",
+            "content": "Phát triển các chức năng báo cáo, kiểm tra CIF, quản lý RM360/CB/RB theo yêu cầu ngân hàng."
+          }
+        ],
+        "imageUrl": "/project/TPB_Saleapp.png"
+      },
+      "date": "11/2021 - 03/2022",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại TPB: CASH MANAGEMENT",
+      "subtitle": "Lập trình viên Front-end",
+      "description": {
+        "teamSize": 10,
+        "tools": ["VSCode", "STS4", "DataGird", "Webstorm"],
+        "technologies": ["Angular", "Bootstrap", "Material", "Spring Boot", "Oracle"],
+        "shortDescription": "Hệ thống quản lý tài khoản ngân hàng doanh nghiệp.",
+        "exp": [
+          {
+            "title": "Xử lý luồng dữ liệu doanh nghiệp",
+            "content": "Xây dựng giao diện ánh xạ tài khoản doanh nghiệp và các thao tác nghiệp vụ liên quan tới khách hàng tổ chức."
+          }
+        ],
+        "imageUrl": "/project/TPB_BIZ.png"
+      },
+      "date": "11/2021 - 03/2022",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    },
+    {
+      "title": "Làm việc tại UNIFORM - LPB",
+      "subtitle": "Lập trình viên Front-end",
+      "description": {
+        "teamSize": 10,
+        "tools": ["VSCode", "STS4", "DataGird"],
+        "technologies": ["Angular", "Bootstrap", "Material", "Spring Boot", "Oracle"],
+        "shortDescription": "Phần mềm hỗ trợ giao dịch viên ngân hàng.",
+        "exp": [
+          {
+            "title": "Xây dựng UI nghiệp vụ phức tạp",
+            "content": "Thiết kế giao diện xử lý logic ngày và biểu mẫu đa cấp cho khối nghiệp vụ lớn."
+          },
+          {
+            "title": "Tối ưu hiệu năng UI",
+            "content": "Tối ưu hóa việc render dữ liệu lớn thông qua tách module và sử dụng lazy loading."
+          }
+        ],
+        "imageUrl": "/project/LPB_uniform.png"
+      },
+      "date": "04/2021 - 11/2021",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#f97316"
+    }
+  ],
+  "awards": [
+    {
+      "date": "12-2022",
+      "content": "Nhân viên triển vọng"
+    }
+  ],
+  "certificates": [
+    {
+      "date": "09/2018 - 12/2019",
+      "content": "ENGLISH TOPNOTCH 2.2 tại Cao đẳng FPT Polytechnic (Tương đương IELTS 4.5)\nChứng chỉ Java và JavaScript từ CodeLearn"
+    }
+  ],
+  "skills": [
+    {
+      "titleKey": "profile.technicalSkills",
+       "skills": [
+        {
+          "name": "Angular",
+          "level": 8
+        },
+        {
+          "name": "JavaScript",
+          "level": 9
+        },
+        {
+          "name": "TypeScript",
+          "level": 8
+        },
+        {
+          "name": "Java",
+          "level": 5
+        },
+        {
+          "name": "Spring Boot",
+          "level": 5
+        },
+        {
+          "name": "HTML5-CSS-Bootstrap",
+          "level": 9
+        },
+        {
+          "name": "Git",
+          "level": 8
+        }
+      ]
+    },
+    {
+      "titleKey": "profile.softSkills",
+      "skills": [
+        { "name": "Làm việc nhóm", "level": 6, "icon": "SiTeamcity" },
+        { "name": "Giao tiếp", "level": 5 },
+        { "name": "Giải quyết vấn đề", "level": 8 }
+      ]
+    }
+  ]
+}

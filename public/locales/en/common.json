@@ -1,0 +1,28 @@
+{
+  "welcome": "Welcome",
+  "description": "This is a multilingual app",
+  "MyPortfolio": "My Portfolio",
+  "people": "people",
+  "job": {
+    "description": "Description",
+    "team": "Team Size",
+    "tools": "Tools",
+    "tech": "Technologies",
+    "detail": "Details"
+  },
+  "profile": {
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "website": "Website",
+    "technicalSkills": "Technical skills",
+    "softSkills": "Soft skills",
+    "certificates": "Certificates",
+    "awards": "Awards",
+    "goals": "Goals",
+    "shortTerm": "Short-term Goal",
+    "longTerm": "Long-term Goal"
+  }
+}

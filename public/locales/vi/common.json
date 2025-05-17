@@ -1,0 +1,28 @@
+{
+  "welcome": "Chào mừng",
+  "description": "Đây là ứng dụng đa ngôn ngữ",
+  "MyPortfolio": "Portfolio của tôi",
+  "people": "người",
+  "job": {
+    "description": "Mô tả",
+    "team": "Đội ngũ",
+    "tools": "Công cụ",
+    "tech": "Công nghệ",
+    "detail": "Chi tiết"
+  },
+  "profile": {
+    "birthday": "Ngày sinh",
+    "gender": "Giới tính",
+    "phone": "Điện thoại",
+    "email": "Email",
+    "address": "Địa chỉ",
+    "website": "Website",
+    "technicalSkills": "Kỹ năng chuyên môn",
+    "softSkills": "Kỹ năng mềm",
+    "certificates": "Chứng chỉ",
+    "awards": "Giải thưởng",
+    "goals": "Mục tiêu nghề nghiệp",
+    "shortTerm": "Mục tiêu ngắn hạn",
+    "longTerm": "Mục tiêu dài hạn"
+  }
+}
