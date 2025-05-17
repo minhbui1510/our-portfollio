@@ -1,5 +1,4 @@
 import { FaBirthdayCake, FaPhoneAlt, FaMapMarkerAlt, FaUser, FaEnvelope, FaGlobe } from 'react-icons/fa';
-import { useTranslation } from 'react-i18next';
 import ImageLightbox from "./ImageLightbox.tsx";
 import {useState} from "react";
 
@@ -16,12 +15,12 @@ interface ProfileData {
 }
 export default function ProfileCard({ data  }: { data?: ProfileData }) {
     const [open, setOpen] = useState(false);
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   return (
     <div className="max-w-3xl mx-auto p-6 bg-[rgb(var(--primary)/0.05)] rounded-2xl flex flex-col sm:flex-row items-center gap-6 shadow-md">
       <img
-        src={data.avatarUrl}
-        alt={data.name}
+        src={data?.avatarUrl || ""}
+        alt={data?.name || ""}
         onClick={() => setOpen(true)}
         className="w-32 h-32 rounded-full object-cover border-4 border-[rgb(var(--bg))] shadow"
       />
@@ -52,7 +51,7 @@ export default function ProfileCard({ data  }: { data?: ProfileData }) {
         </div>
       </div>
        <ImageLightbox
-                src={data.avatarUrl}
+                src={data?.avatarUrl || ""}
                 isOpen={open}
                 onClose={() => setOpen(false)}/>
     </div>

@@ -38,9 +38,8 @@ import {
     SiGit, SiGithub, SiGitlab, SiBitbucket, SiDotnet, SiExpress, SiJest, SiApachekafka, SiNestjs, SiRabbitmq, SiTypeorm
 } from 'react-icons/si';
 import {DiRedis, DiVisualstudio} from "react-icons/di";
-import {JSX} from 'react';
 
-export function resolveSkillIcon(name: string): JSX.Element | null {
+export function resolveSkillIcon(name: string): any | null {
     const clean = name.toLowerCase();
 
     // Frontend

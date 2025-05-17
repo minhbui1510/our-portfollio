@@ -1,6 +1,5 @@
 import './App.css'
 import Translate from "./components/Translate.tsx";
-import ThemeSwitcher from "./context/ThemeSwitcher.tsx";
 import {useTranslation} from "react-i18next";
 import Router from "./routes/Router.tsx";
 

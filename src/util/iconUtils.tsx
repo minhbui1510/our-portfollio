@@ -1,6 +1,6 @@
 import * as FaIcons from 'react-icons/fa';
 import * as SiIcons from 'react-icons/si';
-import React, {JSX} from 'react';
+import type { JSX } from 'react'; // ✅ Type-only import
 
 const ALL_ICONS = { ...FaIcons, ...SiIcons };
 

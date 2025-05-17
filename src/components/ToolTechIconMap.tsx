@@ -6,7 +6,7 @@ import {
   SiSpring,
   SiOracle
 } from 'react-icons/si';
-import {JSX} from "react";
+import type {JSX} from "react";
 
 export const toolTechIconMap: Record<string, JSX.Element> = {
   // VSCode: <SiVisualstudiocode className="text-[rgb(var(--text))]" />,

@@ -20,7 +20,7 @@ export interface JobDescription {
     imageUrl?: string; // URL của hình ảnh mô tả công việc
 }
 
-interface TimelineItem {
+export interface TimelineItem {
   date: string;
   content: string;
 }

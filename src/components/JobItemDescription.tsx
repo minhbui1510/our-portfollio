@@ -1,6 +1,5 @@
 // 📁 src/components/JobItemDescription.tsx
 import {useTranslation} from 'react-i18next';
-import {getToolIcon, getTechIcon} from './ToolTechIconMap';
 import type {JobDescription} from "../model/TimeLineItem.ts";
 import ImageLightbox from "./ImageLightbox.tsx";
 import {useState} from "react";
@@ -80,7 +79,7 @@ export default function JobItemDescription({item}: Props) {
                 </div>
             </div>
             <ImageLightbox
-                src={item.imageUrl}
+                src={item.imageUrl || ""}
                 isOpen={open}
                 onClose={() => setOpen(false)}/>
         </>

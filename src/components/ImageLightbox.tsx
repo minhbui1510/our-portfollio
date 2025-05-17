@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 type ImageLightboxProps = {
@@ -44,7 +44,7 @@ export default function ImageLightbox({ src, isOpen, onClose }: ImageLightboxPro
             transition={{ type: 'spring', stiffness: 260, damping: 25 }}
             drag="y"
             dragConstraints={{ top: 0, bottom: 0 }}
-            onDragEnd={(e, info) => {
+            onDragEnd={(_e, info) => {
               if (info.offset.y > 100) onClose(); // vuốt xuống là đóng
             }}
             style={{
