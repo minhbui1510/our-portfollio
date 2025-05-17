@@ -1,6 +1,6 @@
 import {motion} from "framer-motion";
-import {FaReact, FaNodeJs, FaVuejs, FaFigma, FaGithub, FaLinkedin} from "react-icons/fa";
-import {JSX, useEffect} from "react";
+import { FaGithub, FaLinkedin} from "react-icons/fa";
+import {useEffect} from "react";
 import {useNavigate} from "react-router-dom";
 import {useTheme} from "../context/ThemeContext.tsx";
 import {resolveSkillIcon} from "../components/SkillsIcon.tsx";

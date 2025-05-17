@@ -1,9 +1,8 @@
 import { getProfileData } from './profileService';
-import React from 'react';
 import JobItemDescription, {buildExpJSX} from "../components/JobItemDescription.tsx";
 import {getIcon} from "../util/iconUtils.tsx";
 
-export const getMappedProfile = async (profile, lang = 'vi') => {
+export const getMappedProfile = async (profile: any, lang = 'vi') => {
   const data = await getProfileData(profile,lang);
   console.log(data)
   const timelineData = data.timeline.map((item: any) => {

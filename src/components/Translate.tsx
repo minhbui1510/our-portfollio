@@ -2,7 +2,7 @@ import {useTranslation} from 'react-i18next'
 import useDevice from "../hooks/useDevice.ts";
 
 export default function Translate() {
-    const {t, i18n} = useTranslation()
+    const {i18n} = useTranslation()
     const {isMobile} = useDevice();
     return (
         <div className="flex gap-2 items-center">

@@ -1,6 +1,7 @@
 import {useRoutes} from "react-router-dom";
 import PortfolioList from "../pages/PortfolioList";
-import {JSX} from "react";
+import type { JSX } from 'react'; // ✅ Type-only import
+
 import PortfolioDetail from "../pages/PortfolioDetail.tsx";
 
 export default function Router() {

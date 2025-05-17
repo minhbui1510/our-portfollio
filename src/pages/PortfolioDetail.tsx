@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { Timeline } from "../components/TimelineItem.tsx";
 import ProfileCard from "../components/ProfileCard.tsx";
 import SectionBlock from "../components/SectionBlock.tsx";
