@@ -1,0 +1,29 @@
+image: node:20
+
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - corepack enable
+  - yarn install
+
+"🛠 Build (MR #$CI_MERGE_REQUEST_IID)":
+  stage: build
+  script:
+    - yarn build
+  artifacts:
+    paths:
+      - dist/
+
+"🚀 Deploy from commit $CI_COMMIT_SHORT_SHA":
+  stage: deploy
+  only:
+    - main
+  script:
+    - npm install -g firebase-tools
+    - firebase deploy --only hosting --token "$FIREBASE_DEPLOY_TOKEN"
