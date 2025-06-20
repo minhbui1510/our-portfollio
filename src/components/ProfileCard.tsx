@@ -51,7 +51,7 @@ export default function ProfileCard({data}: { data?: ProfileData }) {
                     <div className="flex items-center gap-2 sm:col-span-2">
                         <FaMapMarkerAlt className="text-[rgb(var(--primary))]"/> {data?.address}
                     </div>
-                    <a href={data.website} target="_blank" className="hover:text-[rgb(var(--accent))]">
+                    <a href={`${data?.website}`} target="_blank" className="hover:text-[rgb(var(--accent))]">
                         <div className="flex items-center gap-2 sm:col-span-2">
                             <FaGlobe className="text-[rgb(var(--primary))]"/> {data?.website}
                         </div>
