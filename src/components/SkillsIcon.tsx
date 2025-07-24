@@ -50,7 +50,7 @@ export function resolveSkillIcon(name: string): any | null {
     if (clean.includes('javascript')) return <SiJavascript className="text-yellow-400"/>;
     if (clean.includes('tailwind')) return <SiTailwindcss className="text-cyan-400"/>;
     if (clean.includes('micro')) return <FaCubes className="text-purple-500"/>;
-    if (clean.includes('boot    strap')) return <FaBootstrap className="text-indigo-600"/>;
+    if (clean.includes('bootstrap')) return <FaBootstrap className="text-indigo-600"/>;
     if (clean.includes('html')) return <FaCode className="text-orange-600"/>;
     if (clean.includes('css')) return <FaCode className="text-blue-600"/>;
     if (clean.includes('scss')) return <FaCode className="text-pink-600"/>;
