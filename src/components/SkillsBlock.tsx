@@ -1,5 +1,4 @@
 import type {Skill} from "../model/Skill.ts";
-import {resolveSkillIcon} from "./SkillsIcon.tsx";
 import SkillCarousel from "./SkillCarousel.tsx";
 
 export default function SkillBlock({ title, skills }: { title: string; skills: Skill[] }) {
