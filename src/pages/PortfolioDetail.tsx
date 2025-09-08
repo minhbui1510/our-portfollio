@@ -55,7 +55,7 @@ export default function PortfolioDetail() {
       <SectionBlock title={t("profile.awards")} items={data.awards} />
 
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
         {data.skillGroups.map((group: any, index: number) => (
           <SkillBlock key={index} title={t(group.titleKey)} skills={group.skills} />
         ))}
