@@ -12,9 +12,9 @@
     "website": "http://fb.com/haiminh1510"
   },
   "term": {
-      "goals": "Mục tiêu nghề nghiệp",
-    "shortTerm": "Tiếp tục rèn luyện chuyên sâu về Angular và TypeScript, kết hợp học thêm React để mở rộng khả năng tiếp cận dự án đa nền tảng. Nâng cao kỹ năng tối ưu hiệu suất giao diện và kỹ thuật responsive.",
-    "longTerm": "Trở thành Front-end Tech Lead trong 3 năm tới, có khả năng định hướng kiến trúc giao diện, mentor cho junior developer, và cùng team xây dựng những sản phẩm UI thân thiện, hiệu quả và có khả năng mở rộng cao."
+    "goals": "Mục tiêu nghề nghiệp",
+    "shortTerm": "Tiếp tục nâng cao chuyên môn về Angular và React, đẩy mạnh kỹ năng fullstack với Node.js/TypeScript. Nghiên cứu kiến trúc Micro Frontend và tối ưu hóa trải nghiệm người dùng bằng các kỹ thuật animation hiện đại.",
+    "longTerm": "Trở thành Front-end Tech Lead / Fullstack Developer trong 2 năm tới, có khả năng định hướng kiến trúc giao diện, triển khai CI/CD pipeline, containerization, và mentor cho junior developer."
   },
   "timeline": [
     {
@@ -27,13 +27,89 @@
       "bgColor": "#0ea5e9"
     },
     {
-      "title": "Học đại học",
-      "subtitle": "Học viện Công nghệ Bưu chính Viễn thông",
-      "description": "Chuyên ngành Công nghệ Thông tin (Hệ đào tạo từ xa)",
+      "title": "Tốt nghiệp Đại học",
+      "subtitle": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+      "description": "Cử nhân Công nghệ Thông tin (Hệ đào tạo từ xa)",
       "date": "5/2023 - 12/2025",
       "type": "education",
       "icon": "FaGraduationCap",
       "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Dự án cá nhân: Landing Page ENQ",
+      "subtitle": "Fullstack Developer",
+      "description": {
+        "teamSize": 2,
+        "tools": ["VSCode", "GitLab CI", "Firebase Hosting"],
+        "technologies": ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+        "shortDescription": "Thiết kế và phát triển landing page doanh nghiệp thiết bị công trình với giao diện hiện đại.",
+        "exp": [
+          {
+            "title": "UI/UX Design & Implementation",
+            "content": "Thiết kế Bento Box layout, Hero Section dark mode với circular image, carousel tự động và responsive trên mọi thiết bị."
+          },
+          {
+            "title": "Triển khai CI/CD",
+            "content": "Cấu hình GitLab CI pipeline và Firebase Hosting cho auto deployment, Docker containerization cho môi trường production."
+          }
+        ]
+      },
+      "date": "03/2025 - 04/2026",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#10b981"
+    },
+    {
+      "title": "Dự án cá nhân: Dragon Battle Bot",
+      "subtitle": "Fullstack Developer",
+      "description": {
+        "teamSize": 1,
+        "tools": ["VSCode", "Docker Desktop", "Postman", "Discord Developer Portal"],
+        "technologies": ["TypeScript", "Node.js", "Discord.js", "Prisma", "PostgreSQL", "Redis", "Docker"],
+        "shortDescription": "Discord RPG game bot: turn-based dragon battle với gacha system, real-time multiplayer.",
+        "exp": [
+          {
+            "title": "Thiết kế kiến trúc Backend",
+            "content": "Thiết kế PostgreSQL schema với Prisma ORM, quản lý state battle real-time, xử lý concurrent interactions từ nhiều người chơi."
+          },
+          {
+            "title": "Docker Containerization",
+            "content": "Triển khai multi-container với Docker Compose (Bot + PostgreSQL + Redis), multi-stage Dockerfile, auto-restart và health checks."
+          },
+          {
+            "title": "Game Engine Development",
+            "content": "Xây dựng BattleManager xử lý turn-based combat, speed-based priority, skill system, và EXP/Level progression."
+          }
+        ]
+      },
+      "date": "04/2025 - hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#8b5cf6"
+    },
+    {
+      "title": "Dự án cá nhân: Portfolio CV",
+      "subtitle": "Frontend Developer",
+      "description": {
+        "teamSize": 1,
+        "tools": ["VSCode", "GitLab", "Vite"],
+        "technologies": ["React 19", "TypeScript", "Tailwind CSS", "Framer Motion", "i18next"],
+        "shortDescription": "Website portfolio cá nhân với dark glassmorphism design, đa ngôn ngữ, animated UI.",
+        "exp": [
+          {
+            "title": "Design System Implementation",
+            "content": "Xây dựng hệ thống thiết kế glassmorphism hoàn chỉnh: glass cards, animated progress bars, particle background, responsive trên mọi thiết bị."
+          },
+          {
+            "title": "Multi-language & Multi-theme",
+            "content": "Tích hợp i18next cho đa ngôn ngữ (VI/EN), hệ thống 4 theme (Dark, Light, Green, Orange) với CSS variables."
+          }
+        ]
+      },
+      "date": "01/2025 - hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#3b82f6"
     },
     {
       "title": "Làm việc tại MB: BIZ-REBOOT2",
@@ -217,48 +293,37 @@
     {
       "date": "09/2018 - 12/2019",
       "content": "ENGLISH TOPNOTCH 2.2 tại Cao đẳng FPT Polytechnic (Tương đương IELTS 4.5)\nChứng chỉ Java và JavaScript từ CodeLearn"
+    },
+    {
+      "date": "12/2025",
+      "content": "Cử nhân Công nghệ Thông tin - Học viện Công nghệ Bưu chính Viễn thông (PTIT)"
     }
   ],
   "skills": [
     {
       "titleKey": "profile.technicalSkills",
-       "skills": [
-        {
-          "name": "Angular",
-          "level": 8
-        },
-        {
-          "name": "JavaScript",
-          "level": 9
-        },
-        {
-          "name": "TypeScript",
-          "level": 8
-        },
-        {
-          "name": "Java",
-          "level": 5
-        },
-        {
-          "name": "Spring Boot",
-          "level": 5
-        },
-        {
-          "name": "HTML5-CSS-Bootstrap",
-          "level": 9
-        },
-        {
-          "name": "Git",
-          "level": 8
-        }
+      "skills": [
+        { "name": "Angular", "level": 9 },
+        { "name": "React", "level": 7 },
+        { "name": "JavaScript", "level": 9 },
+        { "name": "TypeScript", "level": 9 },
+        { "name": "Node.js", "level": 6 },
+        { "name": "Tailwind CSS", "level": 8 },
+        { "name": "HTML5-CSS-Bootstrap", "level": 9 },
+        { "name": "Java", "level": 5 },
+        { "name": "Spring Boot", "level": 5 },
+        { "name": "PostgreSQL", "level": 6 },
+        { "name": "Docker", "level": 6 },
+        { "name": "Git", "level": 8 }
       ]
     },
     {
       "titleKey": "profile.softSkills",
       "skills": [
-        { "name": "Làm việc nhóm", "level": 6, "icon": "SiTeamcity" },
-        { "name": "Giao tiếp", "level": 5 },
-        { "name": "Giải quyết vấn đề", "level": 8 }
+        { "name": "Làm việc nhóm", "level": 8 },
+        { "name": "Giao tiếp", "level": 7 },
+        { "name": "Giải quyết vấn đề", "level": 8 },
+        { "name": "Tự học", "level": 9 }
       ]
     }
   ]

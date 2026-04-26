@@ -13,8 +13,8 @@
   },
   "term": {
     "goals": "Career Goals",
-    "shortTerm": "Deepen expertise in Angular and TypeScript, while expanding into React to handle multi-platform projects. Enhance skills in UI performance optimization and responsive design techniques.",
-    "longTerm": "Become a Front-end Tech Lead within 3 years, capable of guiding UI architecture, mentoring junior developers, and leading teams to deliver scalable and user-centric web interfaces."
+    "shortTerm": "Continue advancing expertise in Angular and React, strengthen fullstack capabilities with Node.js/TypeScript. Research Micro Frontend architecture and enhance user experience with modern animation techniques.",
+    "longTerm": "Become a Front-end Tech Lead / Fullstack Developer within 2 years, capable of guiding UI architecture, implementing CI/CD pipelines, containerization, and mentoring junior developers."
   },
   "timeline": [
     {
@@ -27,30 +27,97 @@
       "bgColor": "#0ea5e9"
     },
     {
-      "title": "University Study",
-      "subtitle": "Posts and Telecommunications Institute of Technology",
-      "description": "Major in Information Technology (Distance Education Program)",
+      "title": "University Graduation",
+      "subtitle": "Posts and Telecommunications Institute of Technology (PTIT)",
+      "description": "Bachelor of Information Technology (Distance Education Program)",
       "date": "5/2023 - 12/2025",
       "type": "education",
       "icon": "FaGraduationCap",
       "bgColor": "#0ea5e9"
     },
     {
+      "title": "Personal Project: ENQ Landing Page",
+      "subtitle": "Fullstack Developer",
+      "description": {
+        "teamSize": 2,
+        "tools": ["VSCode", "GitLab CI", "Firebase Hosting"],
+        "technologies": ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+        "shortDescription": "Designed and developed a modern landing page for a construction equipment company.",
+        "exp": [
+          {
+            "title": "UI/UX Design & Implementation",
+            "content": "Designed Bento Box layout, Hero Section with dark mode and circular images, auto-carousel, and fully responsive across all devices."
+          },
+          {
+            "title": "CI/CD Deployment",
+            "content": "Configured GitLab CI pipeline and Firebase Hosting for auto deployment, Docker containerization for production environment."
+          }
+        ]
+      },
+      "date": "03/2025 - 04/2026",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#10b981"
+    },
+    {
+      "title": "Personal Project: Dragon Battle Bot",
+      "subtitle": "Fullstack Developer",
+      "description": {
+        "teamSize": 1,
+        "tools": ["VSCode", "Docker Desktop", "Postman", "Discord Developer Portal"],
+        "technologies": ["TypeScript", "Node.js", "Discord.js", "Prisma", "PostgreSQL", "Redis", "Docker"],
+        "shortDescription": "Discord RPG game bot: turn-based dragon battle with gacha system, real-time multiplayer.",
+        "exp": [
+          {
+            "title": "Backend Architecture Design",
+            "content": "Designed PostgreSQL schema with Prisma ORM, managed real-time battle state, handled concurrent interactions from multiple players."
+          },
+          {
+            "title": "Docker Containerization",
+            "content": "Deployed multi-container setup with Docker Compose (Bot + PostgreSQL + Redis), multi-stage Dockerfile, auto-restart and health checks."
+          },
+          {
+            "title": "Game Engine Development",
+            "content": "Built BattleManager handling turn-based combat, speed-based priority, skill system, and EXP/Level progression."
+          }
+        ]
+      },
+      "date": "04/2025 - Present",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#8b5cf6"
+    },
+    {
+      "title": "Personal Project: Portfolio CV",
+      "subtitle": "Frontend Developer",
+      "description": {
+        "teamSize": 1,
+        "tools": ["VSCode", "GitLab", "Vite"],
+        "technologies": ["React 19", "TypeScript", "Tailwind CSS", "Framer Motion", "i18next"],
+        "shortDescription": "Personal portfolio website with dark glassmorphism design, multi-language, animated UI.",
+        "exp": [
+          {
+            "title": "Design System Implementation",
+            "content": "Built a complete glassmorphism design system: glass cards, animated progress bars, particle background, responsive across all devices."
+          },
+          {
+            "title": "Multi-language & Multi-theme",
+            "content": "Integrated i18next for multi-language (VI/EN), 4-theme system (Dark, Light, Green, Orange) with CSS variables."
+          }
+        ]
+      },
+      "date": "01/2025 - Present",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#3b82f6"
+    },
+    {
       "title": "Working at MB: BIZ-REBOOT2",
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": [
-          "VSCode",
-          "webstorm"
-        ],
-        "technologies": [
-          "Angular 16",
-          "Micro Frontend",
-          "Bootstrap 5",
-          "Spring Boot",
-          "Oracle"
-        ],
+        "tools": ["VSCode", "webstorm"],
+        "technologies": ["Angular 16", "Micro Frontend", "Bootstrap 5", "Spring Boot", "Oracle"],
         "shortDescription": "Enterprise transaction software development for MB.",
         "exp": [
           {
@@ -82,16 +149,8 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": [
-          "VSCode",
-          "webstorm"
-        ],
-        "technologies": [
-          "Angular 9",
-          "Bootstrap 5",
-          "Spring Boot",
-          "Oracle"
-        ],
+        "tools": ["VSCode", "webstorm"],
+        "technologies": ["Angular 9", "Bootstrap 5", "Spring Boot", "Oracle"],
         "shortDescription": "Internal notification management system for MB.",
         "exp": [
           {
@@ -115,16 +174,8 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 5,
-        "tools": [
-          "VSCode",
-          "Webstorm"
-        ],
-        "technologies": [
-          "Angular",
-          "PrimeNG",
-          "Spring Boot",
-          "Oracle"
-        ],
+        "tools": ["VSCode", "Webstorm"],
+        "technologies": ["Angular", "PrimeNG", "Spring Boot", "Oracle"],
         "shortDescription": "Prize wheel program on the MBBank app.",
         "exp": [
           {
@@ -148,15 +199,8 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 5,
-        "tools": [
-          "VSCode"
-        ],
-        "technologies": [
-          "Angular",
-          "Bootstrap",
-          "Spring Boot",
-          "Oracle"
-        ],
+        "tools": ["VSCode"],
+        "technologies": ["Angular", "Bootstrap", "Spring Boot", "Oracle"],
         "shortDescription": "Prize management software for MB Bank.",
         "exp": [
           {
@@ -176,20 +220,8 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": [
-          "VSCode",
-          "Spring tool suite 4",
-          "datagrid",
-          "Webstorm",
-          "Postman"
-        ],
-        "technologies": [
-          "Angular",
-          "Bootstrap",
-          "PrimeNG",
-          "Spring Boot",
-          "Oracle"
-        ],
+        "tools": ["VSCode", "Spring tool suite 4", "datagrid", "Webstorm", "Postman"],
+        "technologies": ["Angular", "Bootstrap", "PrimeNG", "Spring Boot", "Oracle"],
         "shortDescription": "Customer management portal for Tien Phong Bank.",
         "exp": [
           {
@@ -209,19 +241,8 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": [
-          "VSCode",
-          "STS4",
-          "DataGird",
-          "Webstorm"
-        ],
-        "technologies": [
-          "Angular",
-          "Bootstrap",
-          "Material",
-          "Spring Boot",
-          "Oracle"
-        ],
+        "tools": ["VSCode", "STS4", "DataGird", "Webstorm"],
+        "technologies": ["Angular", "Bootstrap", "Material", "Spring Boot", "Oracle"],
         "shortDescription": "Core banking account management system for enterprise clients.",
         "exp": [
           {
@@ -241,18 +262,8 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": [
-          "VSCode",
-          "STS4",
-          "DataGird"
-        ],
-        "technologies": [
-          "Angular",
-          "Bootstrap",
-          "Material",
-          "Spring Boot",
-          "Oracle"
-        ],
+        "tools": ["VSCode", "STS4", "DataGird"],
+        "technologies": ["Angular", "Bootstrap", "Material", "Spring Boot", "Oracle"],
         "shortDescription": "Support software for bank tellers.",
         "exp": [
           {
@@ -282,57 +293,37 @@
     {
       "date": "09/2018 - 12/2019",
       "content": "ENGLISH TOPNOTCH 2.2 at FPT Polytechnic College (Equivalent to IELTS 4.5)\nCertificates in Java and JavaScript by CodeLearn"
+    },
+    {
+      "date": "12/2025",
+      "content": "Bachelor of Information Technology - Posts and Telecommunications Institute of Technology (PTIT)"
     }
   ],
   "skills": [
     {
       "titleKey": "profile.technicalSkills",
       "skills": [
-        {
-          "name": "Angular",
-          "level": 8
-        },
-        {
-          "name": "JavaScript",
-          "level": 9
-        },
-        {
-          "name": "TypeScript",
-          "level": 8
-        },
-        {
-          "name": "Java",
-          "level": 5
-        },
-        {
-          "name": "Spring Boot",
-          "level": 5
-        },
-        {
-          "name": "HTML5-CSS-Bootstrap",
-          "level": 9
-        },
-        {
-          "name": "Git",
-          "level": 8
-        }
+        { "name": "Angular", "level": 9 },
+        { "name": "React", "level": 7 },
+        { "name": "JavaScript", "level": 9 },
+        { "name": "TypeScript", "level": 9 },
+        { "name": "Node.js", "level": 6 },
+        { "name": "Tailwind CSS", "level": 8 },
+        { "name": "HTML5-CSS-Bootstrap", "level": 9 },
+        { "name": "Java", "level": 5 },
+        { "name": "Spring Boot", "level": 5 },
+        { "name": "PostgreSQL", "level": 6 },
+        { "name": "Docker", "level": 6 },
+        { "name": "Git", "level": 8 }
       ]
     },
     {
       "titleKey": "profile.softSkills",
       "skills": [
-        {
-          "name": "Teamwork",
-          "level": 8
-        },
-        {
-          "name": "Communication",
-          "level": 7
-        },
-        {
-          "name": "Problem Solving",
-          "level": 8
-        }
+        { "name": "Teamwork", "level": 8 },
+        { "name": "Communication", "level": 7 },
+        { "name": "Problem Solving", "level": 8 },
+        { "name": "Self-learning", "level": 9 }
       ]
     }
   ]

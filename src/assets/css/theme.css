@@ -1,46 +1,287 @@
-/* Light Theme */
-.theme-light {
-  --bg: 255 255 255;
-  --text: 17 24 39;
-  --primary: 37 99 235;
-  --border: 209 213 219;
-  --accent: 59 130 246;
+/* ========================================
+   DESIGN SYSTEM: Dark Premium Glassmorphism
+   Portfolio CV — 2026
+   ======================================== */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* ── Base Variables ── */
+:root {
+  --font-heading: 'Archivo', sans-serif;
+  --font-body: 'Space Grotesk', sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+  --glass-blur: 16px;
+  --glass-opacity: 0.6;
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease;
 }
 
-/* Dark Theme */
+/* ── Dark Theme (Default) ── */
 .theme-dark {
-  --bg: 17 24 39;
-  --text: 243 244 246;
+  --bg: 15 23 42;
+  --bg-surface: 30 41 59;
+  --text: 248 250 252;
+  --text-muted: 148 163 184;
   --primary: 59 130 246;
-  --border: 55 65 81;
-  --accent: 96 165 250;
+  --border: 51 65 81;
+  --accent: 34 197 94;
+  --accent-glow: 74 222 128;
+  --danger: 239 68 68;
+  --glass-bg: rgba(30, 41, 59, 0.6);
+  --glass-border: rgba(148, 163, 184, 0.1);
+  --glass-hover-bg: rgba(30, 41, 59, 0.8);
+  --glass-hover-border: rgba(34, 197, 94, 0.3);
+  --glass-shadow: rgba(34, 197, 94, 0.1);
+  --gradient-start: #0f172a;
+  --gradient-end: #1e293b;
 }
 
-/* Green Theme */
+/* ── Light Theme ── */
+.theme-light {
+  --bg: 248 250 252;
+  --bg-surface: 241 245 249;
+  --text: 15 23 42;
+  --text-muted: 100 116 139;
+  --primary: 37 99 235;
+  --border: 226 232 240;
+  --accent: 5 150 105;
+  --accent-glow: 16 185 129;
+  --danger: 239 68 68;
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(15, 23, 42, 0.08);
+  --glass-hover-bg: rgba(255, 255, 255, 0.9);
+  --glass-hover-border: rgba(37, 99, 235, 0.3);
+  --glass-shadow: rgba(37, 99, 235, 0.1);
+  --gradient-start: #f8fafc;
+  --gradient-end: #e2e8f0;
+}
+
+/* ── Green Theme ── */
 .theme-green {
-  --bg: 230 249 236;
-  --text: 6 78 59;
-  --primary: 16 185 129;
-  --border: 167 243 208;
-  --accent: 52 211 153;
+  --bg: 5 46 22;
+  --bg-surface: 20 83 45;
+  --text: 220 252 231;
+  --text-muted: 134 239 172;
+  --primary: 34 197 94;
+  --border: 22 101 52;
+  --accent: 74 222 128;
+  --accent-glow: 134 239 172;
+  --danger: 239 68 68;
+  --glass-bg: rgba(20, 83, 45, 0.6);
+  --glass-border: rgba(134, 239, 172, 0.1);
+  --glass-hover-bg: rgba(20, 83, 45, 0.8);
+  --glass-hover-border: rgba(74, 222, 128, 0.3);
+  --glass-shadow: rgba(74, 222, 128, 0.1);
+  --gradient-start: #052e16;
+  --gradient-end: #14532d;
 }
 
-/* Orange Theme */
+/* ── Orange Theme ── */
 .theme-orange {
-  --bg: 255 247 237;
-  --text: 124 45 18;
+  --bg: 67 20 7;
+  --bg-surface: 124 45 18;
+  --text: 255 237 213;
+  --text-muted: 253 186 116;
   --primary: 249 115 22;
-  --border: 254 215 170;
+  --border: 154 52 18;
   --accent: 251 146 60;
+  --accent-glow: 253 186 116;
+  --danger: 239 68 68;
+  --glass-bg: rgba(124, 45, 18, 0.6);
+  --glass-border: rgba(253, 186, 116, 0.1);
+  --glass-hover-bg: rgba(124, 45, 18, 0.8);
+  --glass-hover-border: rgba(251, 146, 60, 0.3);
+  --glass-shadow: rgba(251, 146, 60, 0.1);
+  --gradient-start: #431407;
+  --gradient-end: #7c2d12;
 }
+
+/* ── Glass Card System ── */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-normal);
+}
+
+.glass-card:hover {
+  background: var(--glass-hover-bg);
+  border-color: var(--glass-hover-border);
+  box-shadow: 0 0 30px var(--glass-shadow);
+}
+
+/* ── Glassmorphic Navbar ── */
+.glass-navbar {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  transition: all var(--transition-normal);
+}
+
+.glass-navbar.scrolled {
+  background: var(--glass-hover-bg);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* ── Timeline Override ── */
 .vertical-timeline::before {
-  background: rgb(var(--primary)) !important; /* dùng biến theme */
+  background: linear-gradient(
+    180deg,
+    rgb(var(--accent)) 0%,
+    rgb(var(--primary)) 100%
+  ) !important;
+  width: 3px !important;
 }
-.gradiant-bg {
+
+.vertical-timeline-element-content {
+  background: var(--glass-bg) !important;
+  border: 1px solid var(--glass-border) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2) !important;
+  border-radius: var(--radius-lg) !important;
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right-color: var(--glass-border) !important;
+}
+
+.vertical-timeline-element-date {
+  color: rgb(var(--text-muted)) !important;
+  font-family: var(--font-body) !important;
+}
+
+/* ── Animated Gradient Background ── */
+.gradient-bg {
   background: linear-gradient(
     135deg,
-    rgb(var(--bg)) 0%,
-    rgb(var(--primary)) 50%,
-    rgb(var(--bg)) 100%
+    var(--gradient-start) 0%,
+    var(--gradient-end) 50%,
+    var(--gradient-start) 100%
   );
+  background-size: 200% 200%;
+  animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* ── Gradient Text ── */
+.gradient-text {
+  background: linear-gradient(135deg, rgb(var(--primary)), rgb(var(--accent)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Shimmer Animation ── */
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    rgb(var(--text)) 0%,
+    rgb(var(--accent)) 50%,
+    rgb(var(--text)) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s ease infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+/* ── Avatar Ring Animation ── */
+.avatar-ring {
+  background: conic-gradient(
+    from 0deg,
+    rgb(var(--primary)),
+    rgb(var(--accent)),
+    rgb(var(--primary))
+  );
+  animation: ringRotate 3s linear infinite;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+@keyframes ringRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ── Skill Progress Bar ── */
+.skill-progress-bar {
+  background: linear-gradient(
+    90deg,
+    rgb(var(--primary)) 0%,
+    rgb(var(--accent)) 100%
+  );
+  border-radius: var(--radius-full);
+  height: 8px;
+  transition: width 0.8s ease-in-out;
+}
+
+.skill-progress-track {
+  background: rgba(var(--border), 0.5);
+  border-radius: var(--radius-full);
+  height: 8px;
+  overflow: hidden;
+}
+
+/* ── Scrollbar Styling ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--bg));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--border));
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--primary));
+}
+
+/* ── Selection ── */
+::selection {
+  background: rgba(var(--primary), 0.3);
+  color: rgb(var(--text));
+}
+
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .avatar-ring,
+  .shimmer-text,
+  .gradient-bg {
+    animation: none;
+  }
+
+  .skill-progress-bar {
+    transition: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

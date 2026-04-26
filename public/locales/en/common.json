@@ -1,6 +1,6 @@
 {
   "welcome": "Welcome",
-  "description": "This is a multilingual app",
+  "description": "Explore portfolio & CV of talented developers",
   "MyPortfolio": "My Portfolio",
   "people": "people",
   "job": {
@@ -17,12 +17,13 @@
     "email": "Email",
     "address": "Address",
     "website": "Website",
-    "technicalSkills": "Technical skills",
-    "softSkills": "Soft skills",
+    "technicalSkills": "Technical Skills",
+    "softSkills": "Soft Skills",
     "certificates": "Certificates",
     "awards": "Awards",
-    "goals": "Goals",
+    "goals": "Career Goals",
     "shortTerm": "Short-term Goal",
-    "longTerm": "Long-term Goal"
+    "longTerm": "Long-term Goal",
+    "career": "Career Timeline"
   }
 }

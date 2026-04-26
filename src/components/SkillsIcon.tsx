@@ -111,6 +111,12 @@ export function resolveSkillIcon(name: string): any | null {
     if (clean.includes('redis')) return <DiRedis className="text-red-600"/>;
     if (clean.includes('typeorm')) return <SiTypeorm className="text-purple-600"/>;
     if (clean.includes('entity framework')) return <FaDatabase className="text-blue-600"/>;
+    if (clean.includes('prisma')) return <FaDatabase className="text-indigo-400"/>;
+    if (clean.includes('discord')) return <FaCode className="text-indigo-500"/>;
+    if (clean.includes('vite')) return <FaCode className="text-purple-400"/>;
+    if (clean.includes('framer')) return <FaCode className="text-pink-500"/>;
+    if (clean.includes('i18n')) return <FaCode className="text-sky-400"/>;
+    if (clean.includes('self') || clean.includes('tự học')) return <FaCode className="text-yellow-500"/>;
 
 
     return <FaCode className="text-gray-400"/>;

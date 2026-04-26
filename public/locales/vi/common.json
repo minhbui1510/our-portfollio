@@ -1,6 +1,6 @@
 {
   "welcome": "Chào mừng",
-  "description": "Đây là ứng dụng đa ngôn ngữ",
+  "description": "Khám phá portfolio & CV của các lập trình viên tài năng",
   "MyPortfolio": "Portfolio của tôi",
   "people": "người",
   "job": {
@@ -23,6 +23,7 @@
     "awards": "Giải thưởng",
     "goals": "Mục tiêu nghề nghiệp",
     "shortTerm": "Mục tiêu ngắn hạn",
-    "longTerm": "Mục tiêu dài hạn"
+    "longTerm": "Mục tiêu dài hạn",
+    "career": "Lộ trình nghề nghiệp"
   }
 }

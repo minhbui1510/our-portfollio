@@ -1,22 +1,20 @@
 import './App.css'
-import Translate from "./components/Translate.tsx";
-import {useTranslation} from "react-i18next";
-import Router from "./routes/Router.tsx";
+import Navbar from './components/Navbar';
+import ScrollToTop from './components/ScrollToTop';
+import ParticleBackground from './components/ParticleBackground';
+import Router from './routes/Router';
 
 function App() {
-    const {t} = useTranslation()
-
-    return (
-        <>
-            <div className="flex items-center justify-between">
-                <h1 className="text-2xl text-bold  text-[rgb(var(--text))]">{t('MyPortfolio')}</h1>
-                <Translate/>
-            </div>
-            <div className=" mt-2 flex justify-center">
-                <Router/>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <ParticleBackground />
+      <Navbar />
+      <main className="relative z-10 pt-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto pb-12">
+        <Router />
+      </main>
+      <ScrollToTop />
+    </>
+  )
 }
 
 export default App
