@@ -27,7 +27,7 @@ export default function SkillCarousel({ skills }: { skills: Skill[] }) {
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
       >
         <span className="text-5xl md:text-6xl text-[rgb(var(--primary))] mb-2 drop-shadow-md">
-          {resolveSkillIcon(skill.name)}
+          {skill.icon || resolveSkillIcon(skill.name)}
         </span>
         <span className={`mt-2 font-semibold text-base md:text-lg text-white text-center ${isActive ? "" : "opacity-70"}`}>
           {skill.name}

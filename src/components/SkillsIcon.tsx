@@ -8,7 +8,9 @@ import {
     // Database
     FaDatabase, FaServer,
     // Fallback / General
-    FaCode, FaTerminal, FaCodeBranch
+    FaCode, FaTerminal, FaCodeBranch, FaAws,
+    // Tourism
+    FaUtensils, FaShip, FaMapMarkedAlt
 } from 'react-icons/fa';
 
 import {
@@ -87,6 +89,7 @@ export function resolveSkillIcon(name: string): any | null {
     if (clean.includes('docker')) return <SiDocker className="text-blue-500"/>;
     if (clean.includes('kubernetes')) return <SiKubernetes className="text-indigo-500"/>;
     if (clean.includes('jenkins')) return <SiJenkins className="text-red-500"/>;
+    if (clean.includes('aws') || clean.includes('amazon')) return <FaAws className="text-orange-500"/>;
     if (clean.includes('postman')) return <SiPostman className="text-orange-400"/>;
     if (clean.includes('sts4')) return <FaJava className="text-orange-600"/>;
     if (clean.includes('datagrid')) return <FaCubes className="text-teal-500"/>;
@@ -117,6 +120,11 @@ export function resolveSkillIcon(name: string): any | null {
     if (clean.includes('framer')) return <FaCode className="text-pink-500"/>;
     if (clean.includes('i18n')) return <FaCode className="text-sky-400"/>;
     if (clean.includes('self') || clean.includes('tự học')) return <FaCode className="text-yellow-500"/>;
+
+    // Tourism & F&B
+    if (clean.includes('f&b') || clean.includes('restaurant')) return <FaUtensils className="text-orange-500"/>;
+    if (clean.includes('cruise') || clean.includes('ship')) return <FaShip className="text-blue-500"/>;
+    if (clean.includes('tourism') || clean.includes('travel')) return <FaMapMarkedAlt className="text-green-500"/>;
 
 
     return <FaCode className="text-gray-400"/>;

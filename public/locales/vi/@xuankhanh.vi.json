@@ -1,0 +1,188 @@
+{
+  "theme": "theme-tourism",
+  "profile": {
+    "name": "Đinh Xuân Khánh",
+    "title": "Quản lý Dịch vụ Nhà hàng & Du thuyền | Hạ Long",
+    "avatarUrl": "/avatar/xuankhanh.jpg",
+    "birthday": "13/11/2000",
+    "gender": "Nam",
+    "phone": "038822288",
+    "email": "khanhdinhxuan2000@gmail.com",
+    "address": "Hà Khẩu, Hạ Long, Quảng Ninh",
+    "website": "https://fb.com/khanhs.khanh.79"
+  },
+  "term": {
+    "goals": "Mục tiêu nghề nghiệp",
+    "shortTerm": "Nâng cao năng lực quản lý vận hành dịch vụ F&B trên du thuyền cao cấp, hướng tới tiêu chuẩn phục vụ 5 sao. Đồng thời phát triển kỹ năng truyền thông số và quản trị trải nghiệm khách hàng để gia tăng giá trị thương hiệu.",
+    "longTerm": "Trở thành Giám đốc Vận hành (Operations Manager) trong lĩnh vực du thuyền và resort cao cấp tại Hạ Long, dẫn dắt đội ngũ xây dựng các sản phẩm du lịch đẳng cấp quốc tế, nâng tầm trải nghiệm du khách tại Di sản Thế giới Vịnh Hạ Long."
+  },
+  "timeline": [
+    {
+      "title": "Cử nhân Quản trị Dịch vụ Du lịch & Lữ hành",
+      "subtitle": "Đại học Hạ Long",
+      "description": "Tốt nghiệp Cử nhân chuyên ngành Quản trị dịch vụ du lịch và lữ hành. Trong quá trình học, tích lũy kiến thức nền tảng về quản trị khách sạn, nghiệp vụ hướng dẫn du lịch và marketing dịch vụ. Đạt Chứng chỉ Hướng dẫn viên du lịch nội địa do Tổng cục Du lịch cấp.",
+      "date": "08/2018 - 07/2022",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Quản lý Nhà hàng & Dịch vụ",
+      "subtitle": "Lily Cruise — Du thuyền cao cấp Hạ Long",
+      "description": "Chịu trách nhiệm toàn diện về vận hành dịch vụ nhà hàng trên du thuyền. Quản lý đội ngũ nhân sự phục vụ, xây dựng quy trình SOP và tiêu chuẩn chất lượng dịch vụ. Kiểm soát doanh thu, quản lý chuỗi cung ứng hàng hóa (thực phẩm, đồ uống) và đảm bảo tuân thủ nghiêm ngặt quy định VSATTP. Trực tiếp xử lý các khiếu nại quan trọng của khách hàng và lập báo cáo kết quả kinh doanh định kỳ cho Ban Giám đốc.",
+      "date": "12/2025 - Nay",
+      "type": "work",
+      "icon": "FaShip",
+      "bgColor": "#0284c7"
+    },
+    {
+      "title": "Phó Quản lý Nhà hàng",
+      "subtitle": "Aqua Classic — Du thuyền Hạ Long",
+      "description": "Hỗ trợ Quản lý trưởng điều hành toàn bộ hoạt động nhà hàng trên du thuyền hằng ngày. Giám sát chất lượng phục vụ theo ca, sắp xếp lịch làm việc và phân công nhiệm vụ cho đội ngũ nhân viên. Chủ động đào tạo nhân viên mới về nghiệp vụ và tiêu chuẩn dịch vụ. Kiểm soát quy trình nhập–xuất–tồn kho hàng hóa, nguyên liệu và xử lý kịp thời các tình huống phát sinh từ phía khách hàng.",
+      "date": "2024 - 2025",
+      "type": "work",
+      "icon": "FaAnchor",
+      "bgColor": "#0369a1"
+    },
+    {
+      "title": "Nhân viên Phục vụ Nhà hàng",
+      "subtitle": "Amanda Hải Long (26 phòng) — Du thuyền Hạ Long",
+      "description": "Đón tiếp và hướng dẫn hành khách lên tàu theo đúng quy trình an toàn. Phục vụ ẩm thực và đồ uống theo tiêu chuẩn nhà hàng trên tàu, đảm bảo vệ sinh, trật tự khu vực hành khách và cabin xuyên suốt hành trình. Phối hợp chặt chẽ với bộ phận bếp, buồng phòng và kỹ thuật để vận hành trơn tru mỗi chuyến đi.",
+      "date": "08/2025 - 12/2025",
+      "type": "work",
+      "icon": "FaConciergeBell",
+      "bgColor": "#ea580c"
+    },
+    {
+      "title": "Nhân viên Phục vụ Nhà hàng",
+      "subtitle": "Le Journey Classic — Du thuyền cao cấp Hạ Long",
+      "description": "Thực hiện toàn bộ quy trình đón tiếp và phục vụ khách trên du thuyền hạng sang. Chủ động giải đáp thắc mắc, hỗ trợ xử lý các sự cố nhỏ phát sinh trong hành trình. Là đầu mối phối hợp giữa nhà hàng và các bộ phận liên quan nhằm đảm bảo an toàn tuyệt đối và chất lượng trải nghiệm cho du khách.",
+      "date": "02/2025 - 08/2025",
+      "type": "work",
+      "icon": "FaUtensils",
+      "bgColor": "#ea580c"
+    },
+    {
+      "title": "Chuyên viên Tư vấn Du lịch",
+      "subtitle": "VIETCAD TRAVEL — Công ty lữ hành",
+      "description": "Tiếp nhận và tư vấn chuyên sâu các sản phẩm tour du lịch nội địa và quốc tế cho khách hàng cá nhân lẫn đoàn. Xây dựng lịch trình phù hợp với nhu cầu và ngân sách, xử lý đặt dịch vụ và thanh toán. Duy trì mối quan hệ khách hàng thân thiết để gia tăng tỷ lệ quay lại và giới thiệu.",
+      "date": "05/2023 - 01/2025",
+      "type": "work",
+      "icon": "FaMapMarkedAlt",
+      "bgColor": "#16a34a"
+    },
+    {
+      "title": "Chuyên viên Truyền thông Số",
+      "subtitle": "An Nhung Spa — Spa & Chăm sóc sắc đẹp",
+      "description": "Xây dựng chiến lược nội dung truyền thông trên các nền tảng TikTok và Facebook. Sản xuất content sáng tạo (hình ảnh, video ngắn, bài viết quảng cáo) giúp tăng tương tác và nhận diện thương hiệu. Thu thập, phân tích phản hồi khách hàng để đề xuất cải thiện sản phẩm và dịch vụ.",
+      "date": "11/2023 - 01/2025",
+      "type": "work",
+      "icon": "FaBullhorn",
+      "bgColor": "#db2777"
+    },
+    {
+      "title": "Nhân viên Kinh doanh",
+      "subtitle": "FPT TELECOM — Tập đoàn viễn thông",
+      "description": "Chủ động tìm kiếm, tiếp cận khách hàng tiềm năng và tư vấn giải pháp viễn thông (Internet, truyền hình, camera) phù hợp. Theo dõi, ghi nhận phản hồi sau bán hàng và phối hợp kỹ thuật triển khai lắp đặt dịch vụ. Rèn luyện được kỹ năng chốt sale, xử lý từ chối và quản lý pipeline khách hàng.",
+      "date": "04/2022 - 04/2023",
+      "type": "work",
+      "icon": "FaHeadset",
+      "bgColor": "#4f46e5"
+    },
+    {
+      "title": "Chuyên viên Truyền thông",
+      "subtitle": "ZOU SNEAKER LAB — Thời trang giày",
+      "description": "Phụ trách toàn bộ nội dung truyền thông trên mạng xã hội cho thương hiệu giày sneaker. Viết bài, chụp ảnh sản phẩm và xây dựng chiến dịch quảng cáo trên Facebook, Instagram. Thu thập insight khách hàng, phân tích xu hướng thị trường để định hướng nội dung và sản phẩm chủ lực.",
+      "date": "10/2020 - 03/2022",
+      "type": "work",
+      "icon": "FaHashtag",
+      "bgColor": "#8b5cf6"
+    },
+    {
+      "title": "Chuyên viên Kinh doanh",
+      "subtitle": "ASUKA LUXURY — Sản phẩm cao cấp",
+      "description": "Tiếp cận và tư vấn trực tiếp cho khách hàng về các dòng sản phẩm cao cấp. Xây dựng mối quan hệ khách hàng, chăm sóc sau bán hàng và hỗ trợ đạt chỉ tiêu doanh số. Đây là vị trí đầu tiên giúp hình thành kỹ năng giao tiếp thương mại và tác phong chuyên nghiệp.",
+      "date": "06/2019 - 09/2020",
+      "type": "work",
+      "icon": "FaHandshake",
+      "bgColor": "#ca8a04"
+    }
+  ],
+  "certificates": [
+    {
+      "date": "2022",
+      "content": "Chứng chỉ Hướng dẫn viên Du lịch Nội địa — Tổng cục Du lịch Việt Nam"
+    },
+    {
+      "date": "2022",
+      "content": "Bằng Cử nhân Quản trị Dịch vụ Du lịch & Lữ hành — Đại học Hạ Long"
+    }
+  ],
+  "skills": [
+    {
+      "titleKey": "profile.technicalSkills",
+      "skills": [
+        {
+          "name": "Quản lý vận hành F&B",
+          "level": 8,
+          "icon": "FaUtensils"
+        },
+        {
+          "name": "Vận hành dịch vụ du thuyền",
+          "level": 8,
+          "icon": "FaShip"
+        },
+        {
+          "name": "Tư vấn & thiết kế tour du lịch",
+          "level": 7,
+          "icon": "FaMapMarkedAlt"
+        },
+        {
+          "name": "Marketing số (TikTok, Facebook)",
+          "level": 7,
+          "icon": "FaBullhorn"
+        },
+        {
+          "name": "Quản lý kho & chuỗi cung ứng",
+          "level": 7,
+          "icon": "FaBoxes"
+        },
+        {
+          "name": "Tiêu chuẩn VSATTP",
+          "level": 8,
+          "icon": "FaShieldAlt"
+        }
+      ]
+    },
+    {
+      "titleKey": "profile.softSkills",
+      "skills": [
+        {
+          "name": "Lãnh đạo & Quản lý đội nhóm",
+          "level": 8,
+          "icon": "FaUsers"
+        },
+        {
+          "name": "Giao tiếp, thuyết trình & đàm phán",
+          "level": 9,
+          "icon": "FaComments"
+        },
+        {
+          "name": "Xử lý tình huống & Chăm sóc khách hàng",
+          "level": 8,
+          "icon": "FaHandsHelping"
+        },
+        {
+          "name": "Tiếng Anh giao tiếp",
+          "level": 7,
+          "icon": "FaLanguage"
+        },
+        {
+          "name": "Tin học văn phòng (Word, Excel, PowerPoint)",
+          "level": 7,
+          "icon": "FaLaptop"
+        }
+      ]
+    }
+  ]
+}

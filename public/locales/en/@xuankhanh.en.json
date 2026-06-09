@@ -1,0 +1,188 @@
+{
+  "theme": "theme-tourism",
+  "profile": {
+    "name": "Dinh Xuan Khanh",
+    "title": "F&B & Cruise Service Manager | Ha Long Bay",
+    "avatarUrl": "/avatar/xuankhanh.jpg",
+    "birthday": "11/13/2000",
+    "gender": "Male",
+    "phone": "038822288",
+    "email": "khanhdinhxuan2000@gmail.com",
+    "address": "Ha Khau, Ha Long, Quang Ninh",
+    "website": "https://fb.com/khanhs.khanh.79"
+  },
+  "term": {
+    "goals": "Career Goals",
+    "shortTerm": "Advance F&B management capabilities in the luxury cruise industry, aiming for 5-star service standards. Simultaneously develop digital marketing and customer experience management skills to enhance brand value.",
+    "longTerm": "Become an Operations Manager in the luxury cruise and resort sector in Ha Long, leading teams to build world-class tourism products and elevate the visitor experience at the UNESCO World Heritage Site of Ha Long Bay."
+  },
+  "timeline": [
+    {
+      "title": "Bachelor of Tourism & Travel Services Management",
+      "subtitle": "Ha Long University",
+      "description": "Graduated with a Bachelor's degree in Tourism and Travel Services Management. Built a strong foundation in hotel management, tour guiding operations, and service marketing. Obtained a Domestic Tour Guide Certificate issued by the Vietnam National Administration of Tourism.",
+      "date": "08/2018 - 07/2022",
+      "type": "education",
+      "icon": "FaGraduationCap",
+      "bgColor": "#0ea5e9"
+    },
+    {
+      "title": "Restaurant & Service Manager",
+      "subtitle": "Lily Cruise — Premium Ha Long Bay Cruise",
+      "description": "Full responsibility for restaurant service operations onboard a premium cruise. Manage all F&B personnel, develop SOPs and quality standards. Oversee revenue, supply chain management (food & beverages), and ensure strict compliance with food hygiene & safety regulations. Directly handle critical customer complaints and submit periodic business performance reports to the Board of Directors.",
+      "date": "12/2025 - Present",
+      "type": "work",
+      "icon": "FaShip",
+      "bgColor": "#0284c7"
+    },
+    {
+      "title": "Deputy Restaurant Manager",
+      "subtitle": "Aqua Classic — Ha Long Bay Cruise",
+      "description": "Supported the Head Manager in overseeing all daily restaurant operations onboard. Supervised service quality per shift, scheduled and assigned tasks to the service team. Proactively trained new staff on service protocols and standards. Managed goods inventory (receiving, dispatching, stock) and resolved customer incidents promptly.",
+      "date": "2024 - 2025",
+      "type": "work",
+      "icon": "FaAnchor",
+      "bgColor": "#0369a1"
+    },
+    {
+      "title": "Restaurant Service Staff",
+      "subtitle": "Amanda Hai Long (26 cabins) — Ha Long Bay Cruise",
+      "description": "Welcomed and guided passengers onboard following strict safety protocols. Served cuisine and beverages to onboard restaurant standards, maintained hygiene and order in guest areas and cabins throughout the voyage. Coordinated closely with kitchen, housekeeping, and technical departments for smooth operations on every trip.",
+      "date": "08/2025 - 12/2025",
+      "type": "work",
+      "icon": "FaConciergeBell",
+      "bgColor": "#ea580c"
+    },
+    {
+      "title": "Restaurant Service Staff",
+      "subtitle": "Le Journey Classic — Luxury Ha Long Bay Cruise",
+      "description": "Performed end-to-end guest reception and service operations on a luxury cruise vessel. Proactively addressed guest inquiries and handled minor in-voyage incidents. Served as the key liaison between the restaurant and other departments to ensure absolute safety and premium guest experiences.",
+      "date": "02/2025 - 08/2025",
+      "type": "work",
+      "icon": "FaUtensils",
+      "bgColor": "#ea580c"
+    },
+    {
+      "title": "Travel Consultant",
+      "subtitle": "VIETCAD TRAVEL — Tour Operator",
+      "description": "Provided in-depth consultation on domestic and international tour packages for individual and group clients. Designed itineraries tailored to client needs and budgets, processed bookings and payments. Cultivated long-term customer relationships to increase repeat bookings and referrals.",
+      "date": "05/2023 - 01/2025",
+      "type": "work",
+      "icon": "FaMapMarkedAlt",
+      "bgColor": "#16a34a"
+    },
+    {
+      "title": "Digital Communications Specialist",
+      "subtitle": "An Nhung Spa — Beauty & Wellness",
+      "description": "Developed content marketing strategies across TikTok and Facebook platforms. Produced creative content (visuals, short videos, ad copy) to boost engagement and brand awareness. Collected and analyzed customer feedback to propose product and service improvements.",
+      "date": "11/2023 - 01/2025",
+      "type": "work",
+      "icon": "FaBullhorn",
+      "bgColor": "#db2777"
+    },
+    {
+      "title": "Sales Executive",
+      "subtitle": "FPT TELECOM — Telecommunications Corporation",
+      "description": "Proactively prospected and engaged potential customers, recommending tailored telecom solutions (Internet, TV, security cameras). Tracked post-sale feedback and coordinated with technical teams for service installation. Developed strong closing, objection-handling, and pipeline management skills.",
+      "date": "04/2022 - 04/2023",
+      "type": "work",
+      "icon": "FaHeadset",
+      "bgColor": "#4f46e5"
+    },
+    {
+      "title": "Communications Specialist",
+      "subtitle": "ZOU SNEAKER LAB — Sneaker Fashion Brand",
+      "description": "Managed all social media content for a sneaker brand. Wrote copy, photographed products, and built advertising campaigns on Facebook and Instagram. Gathered customer insights and analyzed market trends to guide content direction and key product positioning.",
+      "date": "10/2020 - 03/2022",
+      "type": "work",
+      "icon": "FaHashtag",
+      "bgColor": "#8b5cf6"
+    },
+    {
+      "title": "Sales Executive",
+      "subtitle": "ASUKA LUXURY — Premium Products",
+      "description": "Engaged and directly consulted customers on premium product lines. Built client relationships, provided after-sales care, and supported sales targets. This first professional role shaped foundational commercial communication skills and a professional work ethic.",
+      "date": "06/2019 - 09/2020",
+      "type": "work",
+      "icon": "FaHandshake",
+      "bgColor": "#ca8a04"
+    }
+  ],
+  "certificates": [
+    {
+      "date": "2022",
+      "content": "Domestic Tour Guide Certificate — Vietnam National Administration of Tourism"
+    },
+    {
+      "date": "2022",
+      "content": "Bachelor of Tourism & Travel Services Management — Ha Long University"
+    }
+  ],
+  "skills": [
+    {
+      "titleKey": "profile.technicalSkills",
+      "skills": [
+        {
+          "name": "F&B Operations Management",
+          "level": 8,
+          "icon": "FaUtensils"
+        },
+        {
+          "name": "Cruise Service Operations",
+          "level": 8,
+          "icon": "FaShip"
+        },
+        {
+          "name": "Tour Design & Consulting",
+          "level": 7,
+          "icon": "FaMapMarkedAlt"
+        },
+        {
+          "name": "Digital Marketing (TikTok, Facebook)",
+          "level": 7,
+          "icon": "FaBullhorn"
+        },
+        {
+          "name": "Inventory & Supply Chain",
+          "level": 7,
+          "icon": "FaBoxes"
+        },
+        {
+          "name": "Food Hygiene & Safety Standards",
+          "level": 8,
+          "icon": "FaShieldAlt"
+        }
+      ]
+    },
+    {
+      "titleKey": "profile.softSkills",
+      "skills": [
+        {
+          "name": "Leadership & Team Management",
+          "level": 8,
+          "icon": "FaUsers"
+        },
+        {
+          "name": "Communication & Negotiation",
+          "level": 9,
+          "icon": "FaComments"
+        },
+        {
+          "name": "Problem Solving & Guest Relations",
+          "level": 8,
+          "icon": "FaHandsHelping"
+        },
+        {
+          "name": "Conversational English",
+          "level": 7,
+          "icon": "FaLanguage"
+        },
+        {
+          "name": "Office Suite (Word, Excel, PowerPoint)",
+          "level": 7,
+          "icon": "FaLaptop"
+        }
+      ]
+    }
+  ]
+}

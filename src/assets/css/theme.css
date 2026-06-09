@@ -102,6 +102,26 @@
   --gradient-end: #7c2d12;
 }
 
+/* ── Tourism Theme ── */
+.theme-tourism {
+  --bg: 8 47 73;
+  --bg-surface: 12 74 110;
+  --text: 240 249 255;
+  --text-muted: 186 230 253;
+  --primary: 6 182 212;
+  --border: 3 105 161;
+  --accent: 251 191 36;
+  --accent-glow: 252 211 77;
+  --danger: 239 68 68;
+  --glass-bg: rgba(12, 74, 110, 0.6);
+  --glass-border: rgba(186, 230, 253, 0.1);
+  --glass-hover-bg: rgba(12, 74, 110, 0.8);
+  --glass-hover-border: rgba(251, 191, 36, 0.3);
+  --glass-shadow: rgba(251, 191, 36, 0.1);
+  --gradient-start: #082f49;
+  --gradient-end: #0c4a6e;
+}
+
 /* ── Glass Card System ── */
 .glass-card {
   background: var(--glass-bg);

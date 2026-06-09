@@ -32,7 +32,7 @@ export default function TechMarquee({ skills }: TechMarqueeProps) {
             key={`${skill.name}-${i}`}
             className="flex items-center gap-2 text-[rgb(var(--text-muted))] hover:text-[rgb(var(--primary))] transition-colors duration-200 flex-shrink-0"
           >
-            <span className="text-2xl">{resolveSkillIcon(skill.name)}</span>
+            <span className="text-2xl">{skill.icon || resolveSkillIcon(skill.name)}</span>
             <span
               className="text-sm font-medium whitespace-nowrap"
               style={{ fontFamily: 'var(--font-body)' }}

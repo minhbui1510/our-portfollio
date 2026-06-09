@@ -13,7 +13,7 @@ export const getMappedProfile = async (profile: any, lang = 'vi') => {
         <JobItemDescription
           item={{
             ...item.description,
-            exp: buildExpJSX(item.description.exp),
+            exp: item.description.exp ? buildExpJSX(item.description.exp) : undefined,
           }}
         />
       ) : item.description,
@@ -21,8 +21,8 @@ export const getMappedProfile = async (profile: any, lang = 'vi') => {
     };
   });
   const jobDescriptionRaw = data.timeline.find((t: any) => t.type === 'work')?.description;
-  const jobDescription = jobDescriptionRaw
-    ? { ...jobDescriptionRaw, exp: buildExpJSX(jobDescriptionRaw.exp) }
+  const jobDescription = (jobDescriptionRaw && typeof jobDescriptionRaw === 'object')
+    ? { ...jobDescriptionRaw, exp: jobDescriptionRaw.exp ? buildExpJSX(jobDescriptionRaw.exp) : undefined }
     : null;
 
   const skillGroups = data.skills.map((group: any) => ({

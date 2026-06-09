@@ -167,6 +167,10 @@
     {
       "date": "2020 - 2022",
       "content": "Chứng chỉ IELTS 6.5"
+    },
+    {
+      "date": "2023",
+      "content": "Chứng chỉ AWS Certified Solutions Architect - Associate (SAA-C03)"
     }
   ],
   "skills": [
@@ -216,6 +220,18 @@
         {
           "name": "Docker",
           "level": 6
+        },
+        {
+          "name": "Kubernetes",
+          "level": 5
+        },
+        {
+          "name": "AWS",
+          "level": 6
+        },
+        {
+          "name": "Jenkins",
+          "level": 5
         }
       ]
     },

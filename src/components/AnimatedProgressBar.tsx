@@ -23,7 +23,7 @@ export default function AnimatedProgressBar({
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <span className="text-base text-[rgb(var(--primary))]">
-            {resolveSkillIcon(skill.name)}
+            {skill.icon || resolveSkillIcon(skill.name)}
           </span>
           <span
             className="text-sm font-medium text-[rgb(var(--text))]"

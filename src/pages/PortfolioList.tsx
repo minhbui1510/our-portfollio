@@ -30,12 +30,21 @@ export default function PortfolioList() {
     },
     {
       name: 'Nguyễn Ngọc Duy',
-      title: 'Lập trình viên',
+      title: 'DevOps',
       avatar: '/avatar/duynguyen.jpeg',
-      skills: ['Vue', 'Figma'],
+      skills: ['AWS', 'Docker', 'Kubernetes', 'Jenkins'],
       github: 'https://github.com/tranthib',
       linkedin: 'https://linkedin.com/in/tranthib',
       id: '@ngocduy',
+    },
+    {
+      name: 'Đinh Xuân Khánh',
+      title: 'Quản lý Dịch vụ Du thuyền',
+      avatar: '/avatar/xuankhanh.jpg',
+      skills: ['F&B Management', 'Cruise Ops', 'Tourism'],
+      github: '#',
+      linkedin: '#',
+      id: '@xuankhanh',
     },
   ];
 
@@ -105,27 +114,33 @@ export default function PortfolioList() {
 
               {/* Social Links & CTA */}
               <div className="flex items-center gap-4 mt-2">
-                <a
-                  href={person.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[rgb(var(--text-muted))] hover:text-[rgb(var(--text))] transition-colors duration-200"
-                  onClick={(e) => e.stopPropagation()}
-                  aria-label={`${person.name} GitHub`}
-                >
-                  <FaGithub className="w-5 h-5" />
-                </a>
-                <a
-                  href={person.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[rgb(var(--text-muted))] hover:text-[rgb(var(--primary))] transition-colors duration-200"
-                  onClick={(e) => e.stopPropagation()}
-                  aria-label={`${person.name} LinkedIn`}
-                >
-                  <FaLinkedin className="w-5 h-5" />
-                </a>
-                <span className="w-px h-4 bg-[rgb(var(--border))]" />
+                {person.github && person.github !== '#' && (
+                  <a
+                    href={person.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[rgb(var(--text-muted))] hover:text-[rgb(var(--text))] transition-colors duration-200"
+                    onClick={(e) => e.stopPropagation()}
+                    aria-label={`${person.name} GitHub`}
+                  >
+                    <FaGithub className="w-5 h-5" />
+                  </a>
+                )}
+                {person.linkedin && person.linkedin !== '#' && (
+                  <a
+                    href={person.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[rgb(var(--text-muted))] hover:text-[rgb(var(--primary))] transition-colors duration-200"
+                    onClick={(e) => e.stopPropagation()}
+                    aria-label={`${person.name} LinkedIn`}
+                  >
+                    <FaLinkedin className="w-5 h-5" />
+                  </a>
+                )}
+                {(person.github && person.github !== '#' || person.linkedin && person.linkedin !== '#') && (
+                  <span className="w-px h-4 bg-[rgb(var(--border))]" />
+                )}
                 <span className="flex items-center gap-1 text-sm font-medium text-[rgb(var(--accent))] group">
                   View CV
                   <FaArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform duration-200" />
