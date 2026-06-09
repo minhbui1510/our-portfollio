@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import type { ReactNode } from 'react';
-type Theme = "theme-light" | "theme-dark" | "theme-green" | "theme-orange";
+type Theme = string;
 
 interface ThemeContextType {
   theme: Theme;
@@ -15,10 +15,15 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     const root = document.documentElement;
-    const allThemes: Theme[] = ["theme-light", "theme-dark", "theme-green", "theme-orange"];
-
-    allThemes.forEach(t => root.classList.remove(t));
-    root.classList.add(theme);
+    
+    // Remove any existing theme classes
+    root.className = Array.from(root.classList)
+      .filter((c) => !c.startsWith('theme-'))
+      .join(' ');
+      
+    if (theme) {
+      root.classList.add(theme);
+    }
   }, [theme]);
 
   return (

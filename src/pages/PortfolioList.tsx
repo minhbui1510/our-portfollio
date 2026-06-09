@@ -27,6 +27,7 @@ export default function PortfolioList() {
       github: 'https://github.com/nguyenvana',
       linkedin: 'https://linkedin.com/in/nguyenvana',
       id: '@haiminh',
+      theme: 'theme-docker',
     },
     {
       name: 'Nguyễn Ngọc Duy',
@@ -36,6 +37,7 @@ export default function PortfolioList() {
       github: 'https://github.com/tranthib',
       linkedin: 'https://linkedin.com/in/tranthib',
       id: '@ngocduy',
+      theme: 'theme-aws',
     },
     {
       name: 'Đinh Xuân Khánh',
@@ -45,6 +47,7 @@ export default function PortfolioList() {
       github: '#',
       linkedin: '#',
       id: '@xuankhanh',
+      theme: 'theme-tourism',
     },
   ];
 
@@ -83,6 +86,7 @@ export default function PortfolioList() {
             key={person.id}
             delay={index * 0.15}
             onClick={() => navigate(`/${person.id}`)}
+            className={person.theme}
           >
             <div className="flex flex-col items-center text-center gap-4">
               {/* Avatar */}

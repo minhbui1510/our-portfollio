@@ -122,6 +122,46 @@
   --gradient-end: #0c4a6e;
 }
 
+/* ── Docker Theme ── */
+.theme-docker {
+  --bg: 10 18 28;
+  --bg-surface: 18 30 46;
+  --text: 240 249 255;
+  --text-muted: 186 230 253;
+  --primary: 36 150 237;
+  --border: 30 58 138;
+  --accent: 13 183 237;
+  --accent-glow: 56 189 248;
+  --danger: 239 68 68;
+  --glass-bg: rgba(18, 30, 46, 0.6);
+  --glass-border: rgba(186, 230, 253, 0.1);
+  --glass-hover-bg: rgba(18, 30, 46, 0.8);
+  --glass-hover-border: rgba(36, 150, 237, 0.3);
+  --glass-shadow: rgba(36, 150, 237, 0.1);
+  --gradient-start: #0a121c;
+  --gradient-end: #121e2e;
+}
+
+/* ── AWS Theme ── */
+.theme-aws {
+  --bg: 26 34 45;
+  --bg-surface: 35 47 62;
+  --text: 255 255 255;
+  --text-muted: 209 213 219;
+  --primary: 255 153 0;
+  --border: 75 85 99;
+  --accent: 255 167 38;
+  --accent-glow: 253 186 116;
+  --danger: 239 68 68;
+  --glass-bg: rgba(35, 47, 62, 0.6);
+  --glass-border: rgba(209, 213, 219, 0.1);
+  --glass-hover-bg: rgba(35, 47, 62, 0.8);
+  --glass-hover-border: rgba(255, 153, 0, 0.3);
+  --glass-shadow: rgba(255, 153, 0, 0.1);
+  --gradient-start: #1a222d;
+  --gradient-end: #232f3e;
+}
+
 /* ── Glass Card System ── */
 .glass-card {
   background: var(--glass-bg);
