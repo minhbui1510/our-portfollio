@@ -4,3 +4,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  /* Ensure the entire physical page gets the theme background color */
+  html, body {
+    background-color: rgb(var(--bg)) !important;
+    height: 100% !important;
+  }
+
+  /* Hide UI elements that shouldn't be printed */
+  .glass-navbar, 
+  nav,
+  .scroll-to-top,
+  canvas,
+  #tsparticles {
+    display: none !important;
+  }
+
+
+
+  /* Ensure background colors in cards are printed (WebKit specific but widely supported) */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Avoid page breaks inside important components */
+  .page-break-avoid {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Adjust main container padding for print */
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+}

@@ -13,6 +13,7 @@ import AnimatedProgressBar from '../components/AnimatedProgressBar';
 import TechMarquee from '../components/TechMarquee';
 import ImageLightbox from '../components/ImageLightbox';
 import Footer from '../components/Footer';
+import PrintableCV from '../components/PrintableCV';
 import type { Skill } from '../model/Skill';
 
 export default function PortfolioDetail() {
@@ -67,7 +68,7 @@ export default function PortfolioDetail() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="space-y-10"
+        className="space-y-10 print:hidden"
       >
         {/* ── SECTION 1: Profile Hero ── */}
         <GlassCard className="!p-8" hover={false}>
@@ -313,6 +314,9 @@ export default function PortfolioDetail() {
           onClose={() => setLightboxOpen(false)}
         />
       </motion.div>
+
+      {/* Printable version (hidden on screen, visible on print) */}
+      <PrintableCV data={data} />
     </AnimatePresence>
   );
 }

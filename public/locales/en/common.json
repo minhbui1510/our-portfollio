@@ -24,6 +24,8 @@
     "goals": "Career Goals",
     "shortTerm": "Short-term Goal",
     "longTerm": "Long-term Goal",
-    "career": "Career Timeline"
-  }
+    "career": "Career Timeline",
+    "education": "Education"
+  },
+  "skills": "Skills"
 }

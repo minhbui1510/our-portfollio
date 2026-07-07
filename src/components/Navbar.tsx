@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaArrowLeft, FaGlobe } from 'react-icons/fa';
+import { FaArrowLeft, FaGlobe, FaDownload } from 'react-icons/fa';
 
 export default function Navbar() {
   const { t, i18n } = useTranslation();
@@ -22,6 +22,10 @@ export default function Navbar() {
   const toggleLang = () => {
     const newLang = i18n.language.startsWith('vi') ? 'en' : 'vi';
     i18n.changeLanguage(newLang);
+  };
+
+  const handlePrint = () => {
+    window.print();
   };
 
   return (
@@ -52,16 +56,29 @@ export default function Navbar() {
         </h1>
       </div>
 
-      <button
-        onClick={toggleLang}
-        className="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium
-          text-[rgb(var(--text-muted))] hover:text-[rgb(var(--text))]
-          hover:bg-[rgb(var(--bg-surface)/0.5)] transition-all duration-200 cursor-pointer"
-        aria-label="Toggle language"
-      >
-        <FaGlobe className="w-4 h-4" />
-        <span>{i18n.language.startsWith('vi') ? 'EN' : 'VI'}</span>
-      </button>
+      <div className="flex items-center gap-2">
+        <button
+          onClick={handlePrint}
+          className="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium
+            text-[rgb(var(--text-muted))] hover:text-[rgb(var(--text))]
+            hover:bg-[rgb(var(--bg-surface)/0.5)] transition-all duration-200 cursor-pointer"
+          title={t('Export PDF')}
+          aria-label="Export PDF"
+        >
+          <FaDownload className="w-4 h-4" />
+        </button>
+
+        <button
+          onClick={toggleLang}
+          className="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium
+            text-[rgb(var(--text-muted))] hover:text-[rgb(var(--text))]
+            hover:bg-[rgb(var(--bg-surface)/0.5)] transition-all duration-200 cursor-pointer"
+          aria-label="Toggle language"
+        >
+          <FaGlobe className="w-4 h-4" />
+          <span>{i18n.language.startsWith('vi') ? 'EN' : 'VI'}</span>
+        </button>
+      </div>
     </motion.nav>
   );
 }
