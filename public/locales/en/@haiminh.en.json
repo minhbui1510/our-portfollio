@@ -13,8 +13,8 @@
   },
   "term": {
     "goals": "Career Goals",
-    "shortTerm": "Continue advancing expertise in Angular and React, strengthen fullstack capabilities with Node.js/TypeScript. Research Micro Frontend architecture and enhance user experience with modern animation techniques.",
-    "longTerm": "Become a Front-end Tech Lead / Fullstack Developer within 2 years, capable of guiding UI architecture, implementing CI/CD pipelines, containerization, and mentoring junior developers."
+    "shortTerm": "Perfect Fullstack skills with NestJS and ReactJS, master DevOps/CI/CD to optimize the software development process. Directly contribute to building system architecture and resolving performance and security challenges for FinTech/Banking projects.",
+    "longTerm": "Become a Senior Fullstack Developer or Solution Architect within the next 3 years. Capable of designing and operating large, high-load systems while participating in the technological orientation for the enterprise."
   },
   "timeline": [
     {
@@ -36,12 +36,62 @@
       "bgColor": "#0ea5e9"
     },
     {
+      "title": "Educational management software development Interedu",
+      "subtitle": "Fullstack Developer",
+      "description": {
+        "teamSize": 1,
+        "tools": [
+          "VSCode",
+          "Docker Desktop",
+          "Postman",
+          "GitLab CI"
+        ],
+        "technologies": [
+          "NestJS",
+          "Next.js",
+          "Prisma",
+          "PostgreSQL",
+          "Tailwind CSS",
+          "Docker"
+        ],
+        "shortDescription": "Educational SaaS system built entirely from scratch.",
+        "imageUrl": "/project/interedu.png",
+        "exp": [
+          {
+            "title": "System Analysis and Design",
+            "content": "Received requirements from clients, designed overall architecture, and modeled PostgreSQL database using Prisma ORM."
+          },
+          {
+            "title": "Fullstack Development",
+            "content": "Built RESTful APIs with NestJS. Developed a modern, high-performance frontend using Next.js, Tailwind CSS, and shadcn/ui."
+          },
+          {
+            "title": "DevOps & Deployment",
+            "content": "Managed CI/CD pipelines and containerized the application with Docker to ensure smooth operation in the production environment."
+          }
+        ]
+      },
+      "date": "05/2026 - present",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#10b981"
+    },
+    {
       "title": "Personal Project: ENQ Landing Page",
       "subtitle": "Fullstack Developer",
       "description": {
         "teamSize": 2,
-        "tools": ["VSCode", "GitLab CI", "Firebase Hosting"],
-        "technologies": ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+        "tools": [
+          "VSCode",
+          "GitLab CI",
+          "Firebase Hosting"
+        ],
+        "technologies": [
+          "React",
+          "Vite",
+          "Tailwind CSS",
+          "Framer Motion"
+        ],
         "shortDescription": "Designed and developed a modern landing page for a construction equipment company.",
         "exp": [
           {
@@ -64,8 +114,21 @@
       "subtitle": "Fullstack Developer",
       "description": {
         "teamSize": 1,
-        "tools": ["VSCode", "Docker Desktop", "Postman", "Discord Developer Portal"],
-        "technologies": ["TypeScript", "Node.js", "Discord.js", "Prisma", "PostgreSQL", "Redis", "Docker"],
+        "tools": [
+          "VSCode",
+          "Docker Desktop",
+          "Postman",
+          "Discord Developer Portal"
+        ],
+        "technologies": [
+          "TypeScript",
+          "Node.js",
+          "Discord.js",
+          "Prisma",
+          "PostgreSQL",
+          "Redis",
+          "Docker"
+        ],
         "shortDescription": "Discord RPG game bot: turn-based dragon battle with gacha system, real-time multiplayer.",
         "exp": [
           {
@@ -92,8 +155,18 @@
       "subtitle": "Frontend Developer",
       "description": {
         "teamSize": 1,
-        "tools": ["VSCode", "GitLab", "Vite"],
-        "technologies": ["React 19", "TypeScript", "Tailwind CSS", "Framer Motion", "i18next"],
+        "tools": [
+          "VSCode",
+          "GitLab",
+          "Vite"
+        ],
+        "technologies": [
+          "React 19",
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion",
+          "i18next"
+        ],
         "shortDescription": "Personal portfolio website with dark glassmorphism design, multi-language, animated UI.",
         "exp": [
           {
@@ -112,12 +185,64 @@
       "bgColor": "#3b82f6"
     },
     {
+      "title": "Working at ANS",
+      "subtitle": "Fullstack Developer",
+      "description": {
+        "teamSize": 3,
+        "tools": [
+          "VSCode",
+          "Docker",
+          "Git"
+        ],
+        "technologies": [
+          "NestJS",
+          "PostgreSQL",
+          "ReactJS",
+          "PrimeReact",
+          "Docker",
+          "CI/CD"
+        ],
+        "shortDescription": "Internal Management System (ANS Admin Portal) - Building and operating the entire internal management website, integrating automated notification services.",
+        "exp": [
+          {
+            "title": "Backend Development",
+            "content": "Developed using NestJS and PostgreSQL database, ensuring high performance and security."
+          },
+          {
+            "title": "Frontend Development",
+            "content": "Built a modern UI with ReactJS and the PrimeReact library."
+          },
+          {
+            "title": "DevOps & CI/CD",
+            "content": "Set up CI/CD pipelines to automate the deployment process, minimizing human errors."
+          },
+          {
+            "title": "Services Integration",
+            "content": "Integrated notification modules via Telegram Bot and Zalo Notification Service for real-time alerts."
+          }
+        ]
+      },
+      "date": "11/2024 - Present",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#ef4444"
+    },
+    {
       "title": "Working at MB: BIZ-REBOOT2",
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "webstorm"],
-        "technologies": ["Angular 16", "Micro Frontend", "Bootstrap 5", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "Angular 16",
+          "Micro Frontend",
+          "Bootstrap 5",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Enterprise transaction software development for MB.",
         "exp": [
           {
@@ -149,8 +274,16 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "webstorm"],
-        "technologies": ["Angular 9", "Bootstrap 5", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "Angular 9",
+          "Bootstrap 5",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Internal notification management system for MB.",
         "exp": [
           {
@@ -174,8 +307,16 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 5,
-        "tools": ["VSCode", "Webstorm"],
-        "technologies": ["Angular", "PrimeNG", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "Webstorm"
+        ],
+        "technologies": [
+          "Angular",
+          "PrimeNG",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Prize wheel program on the MBBank app.",
         "exp": [
           {
@@ -199,8 +340,15 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 5,
-        "tools": ["VSCode"],
-        "technologies": ["Angular", "Bootstrap", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Prize management software for MB Bank.",
         "exp": [
           {
@@ -220,8 +368,20 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "Spring tool suite 4", "datagrid", "Webstorm", "Postman"],
-        "technologies": ["Angular", "Bootstrap", "PrimeNG", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "Spring tool suite 4",
+          "datagrid",
+          "Webstorm",
+          "Postman"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "PrimeNG",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Customer management portal for Tien Phong Bank.",
         "exp": [
           {
@@ -241,8 +401,19 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "STS4", "DataGird", "Webstorm"],
-        "technologies": ["Angular", "Bootstrap", "Material", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "STS4",
+          "DataGird",
+          "Webstorm"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Material",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Core banking account management system for enterprise clients.",
         "exp": [
           {
@@ -262,8 +433,18 @@
       "subtitle": "Front-end Developer",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "STS4", "DataGird"],
-        "technologies": ["Angular", "Bootstrap", "Material", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "STS4",
+          "DataGird"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Material",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Support software for bank tellers.",
         "exp": [
           {
@@ -303,27 +484,79 @@
     {
       "titleKey": "profile.technicalSkills",
       "skills": [
-        { "name": "Angular", "level": 9 },
-        { "name": "React", "level": 7 },
-        { "name": "JavaScript", "level": 9 },
-        { "name": "TypeScript", "level": 9 },
-        { "name": "Node.js", "level": 6 },
-        { "name": "Tailwind CSS", "level": 8 },
-        { "name": "HTML5-CSS-Bootstrap", "level": 9 },
-        { "name": "Java", "level": 5 },
-        { "name": "Spring Boot", "level": 5 },
-        { "name": "PostgreSQL", "level": 6 },
-        { "name": "Docker", "level": 6 },
-        { "name": "Git", "level": 8 }
+        {
+          "name": "Angular",
+          "level": 9
+        },
+        {
+          "name": "React",
+          "level": 7
+        },
+        {
+          "name": "JavaScript",
+          "level": 9
+        },
+        {
+          "name": "TypeScript",
+          "level": 9
+        },
+        {
+          "name": "Node.js",
+          "level": 6
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": 8
+        },
+        {
+          "name": "HTML5-CSS-Bootstrap",
+          "level": 9
+        },
+        {
+          "name": "Java",
+          "level": 5
+        },
+        {
+          "name": "Spring Boot",
+          "level": 5
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 6
+        },
+        {
+          "name": "Docker",
+          "level": 6
+        },
+        {
+          "name": "Git",
+          "level": 8
+        },
+        {
+          "name": "NestJS",
+          "level": 7
+        }
       ]
     },
     {
       "titleKey": "profile.softSkills",
       "skills": [
-        { "name": "Teamwork", "level": 8 },
-        { "name": "Communication", "level": 7 },
-        { "name": "Problem Solving", "level": 8 },
-        { "name": "Self-learning", "level": 9 }
+        {
+          "name": "Teamwork",
+          "level": 8
+        },
+        {
+          "name": "Communication",
+          "level": 7
+        },
+        {
+          "name": "Problem Solving",
+          "level": 8
+        },
+        {
+          "name": "Self-learning",
+          "level": 9
+        }
       ]
     }
   ]

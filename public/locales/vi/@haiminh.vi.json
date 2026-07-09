@@ -13,8 +13,8 @@
   },
   "term": {
     "goals": "Mục tiêu nghề nghiệp",
-    "shortTerm": "Tiếp tục nâng cao chuyên môn về Angular và React, đẩy mạnh kỹ năng fullstack với Node.js/TypeScript. Nghiên cứu kiến trúc Micro Frontend và tối ưu hóa trải nghiệm người dùng bằng các kỹ thuật animation hiện đại.",
-    "longTerm": "Trở thành Front-end Tech Lead / Fullstack Developer trong 2 năm tới, có khả năng định hướng kiến trúc giao diện, triển khai CI/CD pipeline, containerization, và mentor cho junior developer."
+    "shortTerm": "Hoàn thiện kỹ năng Fullstack với NestJS và ReactJS, làm chủ quy trình DevOps/CI/CD để tối ưu hóa quy trình phát triển phần mềm. Đóng góp trực tiếp vào việc xây dựng kiến trúc hệ thống, giải quyết các bài toán về hiệu năng và bảo mật cho các dự án FinTech/Banking.",
+    "longTerm": "Trở thành Senior Fullstack Developer hoặc Solution Architect trong 3 năm tới. Có khả năng thiết kế và vận hành các hệ thống lớn chịu tải cao, đồng thời tham gia định hướng công nghệ cho doanh nghiệp."
   },
   "timeline": [
     {
@@ -36,12 +36,62 @@
       "bgColor": "#0ea5e9"
     },
     {
+      "title": "Phát triển phần mềm quản lý giáo dục Interedu",
+      "subtitle": "Fullstack Developer",
+      "description": {
+        "teamSize": 1,
+        "tools": [
+          "VSCode",
+          "Docker Desktop",
+          "Postman",
+          "GitLab CI"
+        ],
+        "technologies": [
+          "NestJS",
+          "Next.js",
+          "Prisma",
+          "PostgreSQL",
+          "Tailwind CSS",
+          "Docker"
+        ],
+        "shortDescription": "Hệ thống SaaS quản lý giáo dục xây dựng từ đầu đến cuối.",
+        "imageUrl": "/project/interedu.png",
+        "exp": [
+          {
+            "title": "Phân tích và thiết kế hệ thống",
+            "content": "Tiếp nhận yêu cầu từ khách hàng, thiết kế kiến trúc tổng thể và cơ sở dữ liệu PostgreSQL bằng Prisma ORM."
+          },
+          {
+            "title": "Phát triển tính năng (Fullstack)",
+            "content": "Xây dựng các API RESTful với NestJS. Xây dựng giao diện frontend hiện đại và tối ưu hiệu năng bằng Next.js, Tailwind CSS và shadcn/ui."
+          },
+          {
+            "title": "DevOps & Triển khai",
+            "content": "Quản lý quy trình CI/CD và đóng gói ứng dụng với Docker để đảm bảo hệ thống vận hành ổn định trên môi trường production."
+          }
+        ]
+      },
+      "date": "05/2026 - hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#10b981"
+    },
+    {
       "title": "Dự án cá nhân: Landing Page ENQ",
       "subtitle": "Fullstack Developer",
       "description": {
         "teamSize": 2,
-        "tools": ["VSCode", "GitLab CI", "Firebase Hosting"],
-        "technologies": ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+        "tools": [
+          "VSCode",
+          "GitLab CI",
+          "Firebase Hosting"
+        ],
+        "technologies": [
+          "React",
+          "Vite",
+          "Tailwind CSS",
+          "Framer Motion"
+        ],
         "shortDescription": "Thiết kế và phát triển landing page doanh nghiệp thiết bị công trình với giao diện hiện đại.",
         "exp": [
           {
@@ -64,8 +114,21 @@
       "subtitle": "Fullstack Developer",
       "description": {
         "teamSize": 1,
-        "tools": ["VSCode", "Docker Desktop", "Postman", "Discord Developer Portal"],
-        "technologies": ["TypeScript", "Node.js", "Discord.js", "Prisma", "PostgreSQL", "Redis", "Docker"],
+        "tools": [
+          "VSCode",
+          "Docker Desktop",
+          "Postman",
+          "Discord Developer Portal"
+        ],
+        "technologies": [
+          "TypeScript",
+          "Node.js",
+          "Discord.js",
+          "Prisma",
+          "PostgreSQL",
+          "Redis",
+          "Docker"
+        ],
         "shortDescription": "Discord RPG game bot: turn-based dragon battle với gacha system, real-time multiplayer.",
         "exp": [
           {
@@ -92,8 +155,18 @@
       "subtitle": "Frontend Developer",
       "description": {
         "teamSize": 1,
-        "tools": ["VSCode", "GitLab", "Vite"],
-        "technologies": ["React 19", "TypeScript", "Tailwind CSS", "Framer Motion", "i18next"],
+        "tools": [
+          "VSCode",
+          "GitLab",
+          "Vite"
+        ],
+        "technologies": [
+          "React 19",
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion",
+          "i18next"
+        ],
         "shortDescription": "Website portfolio cá nhân với dark glassmorphism design, đa ngôn ngữ, animated UI.",
         "exp": [
           {
@@ -112,12 +185,64 @@
       "bgColor": "#3b82f6"
     },
     {
+      "title": "Làm việc tại ANS",
+      "subtitle": "Fullstack Developer",
+      "description": {
+        "teamSize": 3,
+        "tools": [
+          "VSCode",
+          "Docker",
+          "Git"
+        ],
+        "technologies": [
+          "NestJS",
+          "PostgreSQL",
+          "ReactJS",
+          "PrimeReact",
+          "Docker",
+          "CI/CD"
+        ],
+        "shortDescription": "Hệ thống quản trị nội bộ (ANS Admin Portal) - Xây dựng và vận hành toàn bộ hệ thống website quản lý nội bộ, tích hợp các dịch vụ thông báo tự động.",
+        "exp": [
+          {
+            "title": "Phát triển Backend",
+            "content": "Sử dụng NestJS và cơ sở dữ liệu PostgreSQL, đảm bảo hiệu suất và bảo mật."
+          },
+          {
+            "title": "Xây dựng Frontend",
+            "content": "Thiết kế và phát triển giao diện hiện đại với ReactJS và thư viện PrimeReact."
+          },
+          {
+            "title": "DevOps & CI/CD",
+            "content": "Thiết lập quy trình CI/CD để tự động hóa việc triển khai (Deploy) sản phẩm, giảm thiểu lỗi con người."
+          },
+          {
+            "title": "Tích hợp dịch vụ",
+            "content": "Tích hợp module thông báo qua Telegram Bot và Zalo Notification Service để cảnh báo thời gian thực."
+          }
+        ]
+      },
+      "date": "11/2024 - Hiện tại",
+      "type": "work",
+      "icon": "FaBriefcase",
+      "bgColor": "#ef4444"
+    },
+    {
       "title": "Làm việc tại MB: BIZ-REBOOT2",
       "subtitle": "Lập trình viên Front-end",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "webstorm"],
-        "technologies": ["Angular 16", "Micro Frontend", "Bootstrap 5", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "Angular 16",
+          "Micro Frontend",
+          "Bootstrap 5",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Phát triển phần mềm giao dịch doanh nghiệp cho MB.",
         "exp": [
           {
@@ -149,8 +274,16 @@
       "subtitle": "Lập trình viên Front-end",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "webstorm"],
-        "technologies": ["Angular 9", "Bootstrap 5", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "webstorm"
+        ],
+        "technologies": [
+          "Angular 9",
+          "Bootstrap 5",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Hệ thống quản lý thông báo nội bộ cho MB.",
         "exp": [
           {
@@ -174,8 +307,16 @@
       "subtitle": "Lập trình viên Front-end",
       "description": {
         "teamSize": 5,
-        "tools": ["VSCode", "Webstorm"],
-        "technologies": ["Angular", "PrimeNG", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "Webstorm"
+        ],
+        "technologies": [
+          "Angular",
+          "PrimeNG",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Chương trình vòng quay trúng thưởng trên ứng dụng MBBank.",
         "exp": [
           {
@@ -199,8 +340,15 @@
       "subtitle": "Lập trình viên Front-end",
       "description": {
         "teamSize": 5,
-        "tools": ["VSCode"],
-        "technologies": ["Angular", "Bootstrap", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Phần mềm quản lý giải thưởng cho MB Bank.",
         "exp": [
           {
@@ -220,8 +368,20 @@
       "subtitle": "Lập trình viên Front-end",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "Spring tool suite 4", "datagrid", "Webstorm", "Postman"],
-        "technologies": ["Angular", "Bootstrap", "PrimeNG", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "Spring tool suite 4",
+          "datagrid",
+          "Webstorm",
+          "Postman"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "PrimeNG",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Cổng quản lý khách hàng cho Ngân hàng Tiên Phong.",
         "exp": [
           {
@@ -241,8 +401,19 @@
       "subtitle": "Lập trình viên Front-end",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "STS4", "DataGird", "Webstorm"],
-        "technologies": ["Angular", "Bootstrap", "Material", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "STS4",
+          "DataGird",
+          "Webstorm"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Material",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Hệ thống quản lý tài khoản ngân hàng doanh nghiệp.",
         "exp": [
           {
@@ -262,8 +433,18 @@
       "subtitle": "Lập trình viên Front-end",
       "description": {
         "teamSize": 10,
-        "tools": ["VSCode", "STS4", "DataGird"],
-        "technologies": ["Angular", "Bootstrap", "Material", "Spring Boot", "Oracle"],
+        "tools": [
+          "VSCode",
+          "STS4",
+          "DataGird"
+        ],
+        "technologies": [
+          "Angular",
+          "Bootstrap",
+          "Material",
+          "Spring Boot",
+          "Oracle"
+        ],
         "shortDescription": "Phần mềm hỗ trợ giao dịch viên ngân hàng.",
         "exp": [
           {
@@ -303,27 +484,79 @@
     {
       "titleKey": "profile.technicalSkills",
       "skills": [
-        { "name": "Angular", "level": 9 },
-        { "name": "React", "level": 7 },
-        { "name": "JavaScript", "level": 9 },
-        { "name": "TypeScript", "level": 9 },
-        { "name": "Node.js", "level": 6 },
-        { "name": "Tailwind CSS", "level": 8 },
-        { "name": "HTML5-CSS-Bootstrap", "level": 9 },
-        { "name": "Java", "level": 5 },
-        { "name": "Spring Boot", "level": 5 },
-        { "name": "PostgreSQL", "level": 6 },
-        { "name": "Docker", "level": 6 },
-        { "name": "Git", "level": 8 }
+        {
+          "name": "Angular",
+          "level": 9
+        },
+        {
+          "name": "React",
+          "level": 7
+        },
+        {
+          "name": "JavaScript",
+          "level": 9
+        },
+        {
+          "name": "TypeScript",
+          "level": 9
+        },
+        {
+          "name": "Node.js",
+          "level": 6
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": 8
+        },
+        {
+          "name": "HTML5-CSS-Bootstrap",
+          "level": 9
+        },
+        {
+          "name": "Java",
+          "level": 5
+        },
+        {
+          "name": "Spring Boot",
+          "level": 5
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 6
+        },
+        {
+          "name": "Docker",
+          "level": 6
+        },
+        {
+          "name": "Git",
+          "level": 8
+        },
+        {
+          "name": "NestJS",
+          "level": 7
+        }
       ]
     },
     {
       "titleKey": "profile.softSkills",
       "skills": [
-        { "name": "Làm việc nhóm", "level": 8 },
-        { "name": "Giao tiếp", "level": 7 },
-        { "name": "Giải quyết vấn đề", "level": 8 },
-        { "name": "Tự học", "level": 9 }
+        {
+          "name": "Làm việc nhóm",
+          "level": 8
+        },
+        {
+          "name": "Giao tiếp",
+          "level": 7
+        },
+        {
+          "name": "Giải quyết vấn đề",
+          "level": 8
+        },
+        {
+          "name": "Tự học",
+          "level": 9
+        }
       ]
     }
   ]

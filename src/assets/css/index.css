@@ -13,7 +13,6 @@
   /* Ensure the entire physical page gets the theme background color */
   html, body {
     background-color: rgb(var(--bg)) !important;
-    height: 100% !important;
   }
 
   /* Hide UI elements that shouldn't be printed */
